@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/DJIBatteryDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/DJIBatteryDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol provides a delegate method for you to update battery&apos;s current state.</Abstract>
+			<DeclaredIn>DJIBattery.h</DeclaredIn>
+            
+			
+			<NodeRef refid="63"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJIBatteryDelegate/battery:didUpdateState:</TokenIdentifier>
+			<Abstract type="html">Updates the battery&apos;s current state.</Abstract>
+			<DeclaredIn>DJIBattery.h</DeclaredIn>
+			
+			<Declaration>- (void)battery:(DJIBattery *)battery didUpdateState:(DJIBatteryState *)batteryState</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>battery</Name>
+					<Abstract type="html">Battery that has updated state.</Abstract>
+				</Parameter><Parameter>
+					<Name>batteryState</Name>
+					<Abstract type="html">The battery&apos;s state.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/battery:didUpdateState:</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIGoToStep.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIGoToStep</TokenIdentifier>
+			<Abstract type="html">This class represents a go-to step for a custom mission. By creating an object of this class and adding it into
+a custom mission, the aircraft will go to the specific location during the custom mission execution.</Abstract>
+			<DeclaredIn>DJIGoToStep.h</DeclaredIn>
+            
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGoToStep/setFlightSpeed:</TokenIdentifier>
+			<Abstract type="html">Flight speed of aircraft when going to the target location. Default is 8 m/s.</Abstract>
+			<DeclaredIn>DJIGoToStep.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float flightSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/flightSpeed</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGoToStep/flightSpeed</TokenIdentifier>
+			<Abstract type="html">Flight speed of aircraft when going to the target location. Default is 8 m/s.</Abstract>
+			<DeclaredIn>DJIGoToStep.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float flightSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/flightSpeed</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGoToStep/flightSpeed</TokenIdentifier>
+			<Abstract type="html">Flight speed of aircraft when going to the target location. Default is 8 m/s.</Abstract>
+			<DeclaredIn>DJIGoToStep.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float flightSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/flightSpeed</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGoToStep/initWithCoordinate:</TokenIdentifier>
+			<Abstract type="html">Go to coordinate from current aircraft position.</Abstract>
+			<DeclaredIn>DJIGoToStep.h</DeclaredIn>
+			
+			<Declaration>- (instancetype _Nullable)initWithCoordinate:(CLLocationCoordinate2D)coorinate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>coorinate</Name>
+					<Abstract type="html">Target coorinate.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Instance of DJIGoToStep.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithCoordinate:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGoToStep/initWithAltitude:</TokenIdentifier>
+			<Abstract type="html">Go to altitude from current aircraft position.</Abstract>
+			<DeclaredIn>DJIGoToStep.h</DeclaredIn>
+			
+			<Declaration>- (instancetype _Nullable)initWithAltitude:(float)altitude</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>altitude</Name>
+					<Abstract type="html">Target altitude in meters.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Instance of DJIGoToStep.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithAltitude:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGoToStep/initWithCoordinate:altitude:</TokenIdentifier>
+			<Abstract type="html">Go to coordinate and alitude (in meters) from current aircraft position.</Abstract>
+			<DeclaredIn>DJIGoToStep.h</DeclaredIn>
+			
+			<Declaration>- (instancetype _Nullable)initWithCoordinate:(CLLocationCoordinate2D)coorinate altitude:(float)altitude</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>coorinate</Name>
+					<Abstract type="html">Target coordinate</Abstract>
+				</Parameter><Parameter>
+					<Name>altitude</Name>
+					<Abstract type="html">Target altitude in meters</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Instance of DJIGoToStep.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithCoordinate:altitude:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

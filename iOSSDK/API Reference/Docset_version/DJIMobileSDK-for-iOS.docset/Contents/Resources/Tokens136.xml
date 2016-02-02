@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJILensType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJILensType</TokenIdentifier>
+			<Abstract type="html">The type of the installed lens.</Abstract>
+			<DeclaredIn>DJICameraLensState.h</DeclaredIn>
+            
+			
+			<NodeRef refid="136"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILensTypeAF</TokenIdentifier>
+            <Abstract type="html">The lens supports Auto Focus.
+For this type, DJI SDK can control the focus point.
+     </Abstract>
+            <Declaration>DJILensTypeAF</Declaration>
+            
+            <DeclaredIn>DJICameraLensState.h</DeclaredIn>
+            
+            <NodeRef refid="136"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILensTypeMF</TokenIdentifier>
+            <Abstract type="html">The lens supports only Manual Focus.
+For this type, DJI SDK cannot control the focus point.
+     </Abstract>
+            <Declaration>DJILensTypeMF</Declaration>
+            
+            <DeclaredIn>DJICameraLensState.h</DeclaredIn>
+            
+            <NodeRef refid="136"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILensTypeUnknown</TokenIdentifier>
+            <Abstract type="html">The lens type is unkown.
+     </Abstract>
+            <Declaration>DJILensTypeUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraLensState.h</DeclaredIn>
+            
+            <NodeRef refid="136"/>
+        </Token>
+        
+	</File>
+</Tokens>

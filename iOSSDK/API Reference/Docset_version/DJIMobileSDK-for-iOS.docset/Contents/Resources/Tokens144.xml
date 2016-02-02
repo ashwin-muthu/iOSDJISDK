@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJIRCHardwareTransformationSwitchState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJIRCHardwareTransformationSwitchState</TokenIdentifier>
+			<Abstract type="html">Transformation Switch position states.</Abstract>
+			<DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="144"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCHardwareTransformationSwitchStateRetract</TokenIdentifier>
+            <Abstract type="html">Retract landing gear switch state
+     </Abstract>
+            <Declaration>DJIRCHardwareTransformationSwitchStateRetract</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="144"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCHardwareTransformationSwitchStateDeploy</TokenIdentifier>
+            <Abstract type="html">Deploy landing gear switch state.
+     </Abstract>
+            <Declaration>DJIRCHardwareTransformationSwitchStateDeploy</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="144"/>
+        </Token>
+        
+	</File>
+</Tokens>

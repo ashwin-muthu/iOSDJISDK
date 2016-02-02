@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIGimbalConfig.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIGimbalConfig</TokenIdentifier>
+			<Abstract type="html">This class provides advanced configuration of the gimbal. By changing the configuration, user can
+adjust the responsivity of the gimbal.
+Currently, the advanced configuration is only supported by OSMO.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+            
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/setConfigType:</TokenIdentifier>
+			<Abstract type="html">Gimbal configuration type. There are three preset types: fast, medium and slow.
+When the configuration type to DJIGimbalUserConfigTypeCustom1 or DJIGimbalUserConfigTypeCustom2, user can change
+the configuration by calling methods related to smoothTracking.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIGimbalUserConfigType configType</Declaration>
+			
+			
+			<Anchor>//api/name/configType</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/configType</TokenIdentifier>
+			<Abstract type="html">Gimbal configuration type. There are three preset types: fast, medium and slow.
+When the configuration type to DJIGimbalUserConfigTypeCustom1 or DJIGimbalUserConfigTypeCustom2, user can change
+the configuration by calling methods related to smoothTracking.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIGimbalUserConfigType configType</Declaration>
+			
+			
+			<Anchor>//api/name/configType</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConfig/configType</TokenIdentifier>
+			<Abstract type="html">Gimbal configuration type. There are three preset types: fast, medium and slow.
+When the configuration type to DJIGimbalUserConfigTypeCustom1 or DJIGimbalUserConfigTypeCustom2, user can change
+the configuration by calling methods related to smoothTracking.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIGimbalUserConfigType configType</Declaration>
+			
+			
+			<Anchor>//api/name/configType</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/setIsSmoothTrackYawEnabled:</TokenIdentifier>
+			<Abstract type="html">YES if gimbal SmoothTrack is enabled for the yaw axis.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isSmoothTrackYawEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/isSmoothTrackYawEnabled</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/isSmoothTrackYawEnabled</TokenIdentifier>
+			<Abstract type="html">YES if gimbal SmoothTrack is enabled for the yaw axis.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isSmoothTrackYawEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/isSmoothTrackYawEnabled</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConfig/isSmoothTrackYawEnabled</TokenIdentifier>
+			<Abstract type="html">YES if gimbal SmoothTrack is enabled for the yaw axis.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isSmoothTrackYawEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/isSmoothTrackYawEnabled</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/setIsSmoothTrackPitchEnabled:</TokenIdentifier>
+			<Abstract type="html">YES if gimbal SmoothTrack is enabled for the pitch axis.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isSmoothTrackPitchEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/isSmoothTrackPitchEnabled</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/isSmoothTrackPitchEnabled</TokenIdentifier>
+			<Abstract type="html">YES if gimbal SmoothTrack is enabled for the pitch axis.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isSmoothTrackPitchEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/isSmoothTrackPitchEnabled</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConfig/isSmoothTrackPitchEnabled</TokenIdentifier>
+			<Abstract type="html">YES if gimbal SmoothTrack is enabled for the pitch axis.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isSmoothTrackPitchEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/isSmoothTrackPitchEnabled</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/setSmoothTrackYawSpeed:</TokenIdentifier>
+			<Abstract type="html">SmoothTrack yaw axis speed determines how fast the gimbal will catch up with the translated yaw handle movement.
+Range is [0,100].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackYawSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackYawSpeed</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/smoothTrackYawSpeed</TokenIdentifier>
+			<Abstract type="html">SmoothTrack yaw axis speed determines how fast the gimbal will catch up with the translated yaw handle movement.
+Range is [0,100].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackYawSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackYawSpeed</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConfig/smoothTrackYawSpeed</TokenIdentifier>
+			<Abstract type="html">SmoothTrack yaw axis speed determines how fast the gimbal will catch up with the translated yaw handle movement.
+Range is [0,100].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackYawSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackYawSpeed</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/setSmoothTrackPitchSpeed:</TokenIdentifier>
+			<Abstract type="html">SmoothTrack pitch axis speed determines how fast the gimbal will catch up with the translated pitch handle movement.
+Range is [0,100].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackPitchSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackPitchSpeed</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/smoothTrackPitchSpeed</TokenIdentifier>
+			<Abstract type="html">SmoothTrack pitch axis speed determines how fast the gimbal will catch up with the translated pitch handle movement.
+Range is [0,100].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackPitchSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackPitchSpeed</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConfig/smoothTrackPitchSpeed</TokenIdentifier>
+			<Abstract type="html">SmoothTrack pitch axis speed determines how fast the gimbal will catch up with the translated pitch handle movement.
+Range is [0,100].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackPitchSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackPitchSpeed</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/setSmoothTrackYawDeadband:</TokenIdentifier>
+			<Abstract type="html">A larger SmoothTrack yaw axis deadband requires more yaw handle movement to translate into gimbal motion.
+Range is [0,90] degrees.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackYawDeadband</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackYawDeadband</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/smoothTrackYawDeadband</TokenIdentifier>
+			<Abstract type="html">A larger SmoothTrack yaw axis deadband requires more yaw handle movement to translate into gimbal motion.
+Range is [0,90] degrees.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackYawDeadband</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackYawDeadband</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConfig/smoothTrackYawDeadband</TokenIdentifier>
+			<Abstract type="html">A larger SmoothTrack yaw axis deadband requires more yaw handle movement to translate into gimbal motion.
+Range is [0,90] degrees.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackYawDeadband</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackYawDeadband</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/setSmoothTrackPitchDeadband:</TokenIdentifier>
+			<Abstract type="html">A larger SmoothTrack pitch axis deadband requires more pitch handle movement to translate into gimbal motion.
+Range is [0,90] degrees.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackPitchDeadband</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackPitchDeadband</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/smoothTrackPitchDeadband</TokenIdentifier>
+			<Abstract type="html">A larger SmoothTrack pitch axis deadband requires more pitch handle movement to translate into gimbal motion.
+Range is [0,90] degrees.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackPitchDeadband</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackPitchDeadband</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConfig/smoothTrackPitchDeadband</TokenIdentifier>
+			<Abstract type="html">A larger SmoothTrack pitch axis deadband requires more pitch handle movement to translate into gimbal motion.
+Range is [0,90] degrees.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackPitchDeadband</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackPitchDeadband</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/setSmoothTrackYawAcceleration:</TokenIdentifier>
+			<Abstract type="html">SmoothTrack yaw axis acceleration determines how closely the camera will follow the translated yaw handle movement.
+Range is [0,30].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackYawAcceleration</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackYawAcceleration</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/smoothTrackYawAcceleration</TokenIdentifier>
+			<Abstract type="html">SmoothTrack yaw axis acceleration determines how closely the camera will follow the translated yaw handle movement.
+Range is [0,30].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackYawAcceleration</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackYawAcceleration</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConfig/smoothTrackYawAcceleration</TokenIdentifier>
+			<Abstract type="html">SmoothTrack yaw axis acceleration determines how closely the camera will follow the translated yaw handle movement.
+Range is [0,30].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackYawAcceleration</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackYawAcceleration</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/setSmoothTrackPitchAcceleration:</TokenIdentifier>
+			<Abstract type="html">SmoothTrack pitch axis acceleration determines how closely the camera will follow the translated pitch handle movement.
+Range is [0,30].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackPitchAcceleration</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackPitchAcceleration</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/smoothTrackPitchAcceleration</TokenIdentifier>
+			<Abstract type="html">SmoothTrack pitch axis acceleration determines how closely the camera will follow the translated pitch handle movement.
+Range is [0,30].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackPitchAcceleration</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackPitchAcceleration</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConfig/smoothTrackPitchAcceleration</TokenIdentifier>
+			<Abstract type="html">SmoothTrack pitch axis acceleration determines how closely the camera will follow the translated pitch handle movement.
+Range is [0,30].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger smoothTrackPitchAcceleration</Declaration>
+			
+			
+			<Anchor>//api/name/smoothTrackPitchAcceleration</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/setJoystickYawSmoothing:</TokenIdentifier>
+			<Abstract type="html">Joystick yaw axis smoothing controls the deceleration of the gimbal. A small value will cause the gimbal to stop abruptly.
+Range is [0,30].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger joystickYawSmoothing</Declaration>
+			
+			
+			<Anchor>//api/name/joystickYawSmoothing</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/joystickYawSmoothing</TokenIdentifier>
+			<Abstract type="html">Joystick yaw axis smoothing controls the deceleration of the gimbal. A small value will cause the gimbal to stop abruptly.
+Range is [0,30].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger joystickYawSmoothing</Declaration>
+			
+			
+			<Anchor>//api/name/joystickYawSmoothing</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConfig/joystickYawSmoothing</TokenIdentifier>
+			<Abstract type="html">Joystick yaw axis smoothing controls the deceleration of the gimbal. A small value will cause the gimbal to stop abruptly.
+Range is [0,30].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger joystickYawSmoothing</Declaration>
+			
+			
+			<Anchor>//api/name/joystickYawSmoothing</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/setJoystickPitchSmoothing:</TokenIdentifier>
+			<Abstract type="html">Joystick pitch axis smoothing controls the deceleration of the gimbal. A small value will cause the gimbal to stop abruptly.
+Range is [0,30].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger joystickPitchSmoothing</Declaration>
+			
+			
+			<Anchor>//api/name/joystickPitchSmoothing</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/joystickPitchSmoothing</TokenIdentifier>
+			<Abstract type="html">Joystick pitch axis smoothing controls the deceleration of the gimbal. A small value will cause the gimbal to stop abruptly.
+Range is [0,30].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger joystickPitchSmoothing</Declaration>
+			
+			
+			<Anchor>//api/name/joystickPitchSmoothing</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConfig/joystickPitchSmoothing</TokenIdentifier>
+			<Abstract type="html">Joystick pitch axis smoothing controls the deceleration of the gimbal. A small value will cause the gimbal to stop abruptly.
+Range is [0,30].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger joystickPitchSmoothing</Declaration>
+			
+			
+			<Anchor>//api/name/joystickPitchSmoothing</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/setJoystickYawSpeed:</TokenIdentifier>
+			<Abstract type="html">Joystick yaw axis speed.
+Range is [0,100].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger joystickYawSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/joystickYawSpeed</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/joystickYawSpeed</TokenIdentifier>
+			<Abstract type="html">Joystick yaw axis speed.
+Range is [0,100].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger joystickYawSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/joystickYawSpeed</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConfig/joystickYawSpeed</TokenIdentifier>
+			<Abstract type="html">Joystick yaw axis speed.
+Range is [0,100].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger joystickYawSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/joystickYawSpeed</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/setJoystickPitchSpeed:</TokenIdentifier>
+			<Abstract type="html">Joystick pitch axis speed.
+Range is [0,100].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger joystickPitchSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/joystickPitchSpeed</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConfig/joystickPitchSpeed</TokenIdentifier>
+			<Abstract type="html">Joystick pitch axis speed.
+Range is [0,100].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger joystickPitchSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/joystickPitchSpeed</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConfig/joystickPitchSpeed</TokenIdentifier>
+			<Abstract type="html">Joystick pitch axis speed.
+Range is [0,100].</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger joystickPitchSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/joystickPitchSpeed</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

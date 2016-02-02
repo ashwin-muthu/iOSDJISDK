@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraVideoResolution.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraVideoResolution</TokenIdentifier>
+			<Abstract type="html">Camera video resolution values. The resolutions available for a product can be found from supportedCameraVideoResolutionAndFrameRateRange.</Abstract>
+			<DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+			
+			<NodeRef refid="104"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraVideoResolution2704x1520</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s video resolution is 2704x1520.
+     </Abstract>
+            <Declaration>DJICameraVideoResolution2704x1520</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="104"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraVideoResolution1280x720</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s video resolution is 1280x720.
+     </Abstract>
+            <Declaration>DJICameraVideoResolution1280x720</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="104"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraVideoResolution1920x1080</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s video resolution is 1920x1080.
+     </Abstract>
+            <Declaration>DJICameraVideoResolution1920x1080</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="104"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraVideoResolution3840x2160</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s video resolution is 3840x2160.
+     </Abstract>
+            <Declaration>DJICameraVideoResolution3840x2160</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="104"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraVideoResolution4096x2160</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s video resolution is 4096x2160.
+     </Abstract>
+            <Declaration>DJICameraVideoResolution4096x2160</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="104"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraVideoResolutionUnknown</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s video resolution is unknown.
+     </Abstract>
+            <Declaration>DJICameraVideoResolutionUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="104"/>
+        </Token>
+        
+	</File>
+</Tokens>

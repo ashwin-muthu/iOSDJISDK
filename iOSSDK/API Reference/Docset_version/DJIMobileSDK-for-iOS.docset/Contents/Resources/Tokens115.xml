@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJIGimbalJoystickAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJIGimbalJoystickAxis</TokenIdentifier>
+			<Abstract type="html">Gimbal joystick axis. This is only supported by the OSMO gimbal when using a Custom configuration in DJIGimbalUserConfigType.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+            
+			
+			<NodeRef refid="115"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIGimbalJoystickAxisYaw</TokenIdentifier>
+            <Abstract type="html">The axis of gimbal&apos;s joystick direction is yaw.
+     </Abstract>
+            <Declaration>DJIGimbalJoystickAxisYaw</Declaration>
+            
+            <DeclaredIn>DJIGimbal.h</DeclaredIn>
+            
+            <NodeRef refid="115"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIGimbalJoystickAxisPitch</TokenIdentifier>
+            <Abstract type="html">The axis of gimbal&apos;s joystick direction is pitch.
+     </Abstract>
+            <Declaration>DJIGimbalJoystickAxisPitch</Declaration>
+            
+            <DeclaredIn>DJIGimbal.h</DeclaredIn>
+            
+            <NodeRef refid="115"/>
+        </Token>
+        
+	</File>
+</Tokens>

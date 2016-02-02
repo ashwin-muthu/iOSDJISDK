@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIFollowMeMission.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIFollowMeMission</TokenIdentifier>
+			<Abstract type="html">The class represents a follow-me mission. User can use it to make the aircraft follow the GPS device, like remote controller with GPS signal or mobile device.</Abstract>
+			<DeclaredIn>DJIFollowMeMission.h</DeclaredIn>
+            
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIFollowMeMission/setFollowMeCoordinate:</TokenIdentifier>
+			<Abstract type="html">User&apos;s initial coordinate.</Abstract>
+			<DeclaredIn>DJIFollowMeMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CLLocationCoordinate2D followMeCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/followMeCoordinate</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIFollowMeMission/followMeCoordinate</TokenIdentifier>
+			<Abstract type="html">User&apos;s initial coordinate.</Abstract>
+			<DeclaredIn>DJIFollowMeMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CLLocationCoordinate2D followMeCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/followMeCoordinate</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIFollowMeMission/followMeCoordinate</TokenIdentifier>
+			<Abstract type="html">User&apos;s initial coordinate.</Abstract>
+			<DeclaredIn>DJIFollowMeMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CLLocationCoordinate2D followMeCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/followMeCoordinate</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIFollowMeMission/setFollowMeAltitude:</TokenIdentifier>
+			<Abstract type="html">User&apos;s initial altitude(above sea level). If not use altitude follow, set zero.</Abstract>
+			<DeclaredIn>DJIFollowMeMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float followMeAltitude</Declaration>
+			
+			
+			<Anchor>//api/name/followMeAltitude</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIFollowMeMission/followMeAltitude</TokenIdentifier>
+			<Abstract type="html">User&apos;s initial altitude(above sea level). If not use altitude follow, set zero.</Abstract>
+			<DeclaredIn>DJIFollowMeMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float followMeAltitude</Declaration>
+			
+			
+			<Anchor>//api/name/followMeAltitude</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIFollowMeMission/followMeAltitude</TokenIdentifier>
+			<Abstract type="html">User&apos;s initial altitude(above sea level). If not use altitude follow, set zero.</Abstract>
+			<DeclaredIn>DJIFollowMeMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float followMeAltitude</Declaration>
+			
+			
+			<Anchor>//api/name/followMeAltitude</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIFollowMeMission/setHeading:</TokenIdentifier>
+			<Abstract type="html">The aircraft&apos;s heading during the mission.</Abstract>
+			<DeclaredIn>DJIFollowMeMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) DJIFollowMeHeading heading</Declaration>
+			
+			
+			<Anchor>//api/name/heading</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIFollowMeMission/heading</TokenIdentifier>
+			<Abstract type="html">The aircraft&apos;s heading during the mission.</Abstract>
+			<DeclaredIn>DJIFollowMeMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) DJIFollowMeHeading heading</Declaration>
+			
+			
+			<Anchor>//api/name/heading</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIFollowMeMission/heading</TokenIdentifier>
+			<Abstract type="html">The aircraft&apos;s heading during the mission.</Abstract>
+			<DeclaredIn>DJIFollowMeMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) DJIFollowMeHeading heading</Declaration>
+			
+			
+			<Anchor>//api/name/heading</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/DJIFollowMeMission/updateFollowMeCoordinate:withCompletion:</TokenIdentifier>
+			<Abstract type="html">Updates the coordinate that the aircraft will follow. Once the follow me mission is initialized,
+this method is used to continuously update the coordinate to follow. If the aircraft doesn&apos;t receive an update
+within 6 seconds, it will hover in position until the next update arrives.
+This is the only property or method in this class that can communicate with the aircraft during a mission.
+All other properties and methods are used offline to prepare the mission which is then uploaded to the aircraft.</Abstract>
+			<DeclaredIn>DJIFollowMeMission.h</DeclaredIn>
+			
+			<Declaration>+ (void)updateFollowMeCoordinate:(CLLocationCoordinate2D)coordinate withCompletion:(DJICompletionBlock)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>coordinate</Name>
+					<Abstract type="html">Coordinate the aricraft will follow. Should be within 200m horizontal distance of current location.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">Completion block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateFollowMeCoordinate:withCompletion:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/DJIFollowMeMission/updateFollowMeCoordinate:altitude:withCompletion:</TokenIdentifier>
+			<Abstract type="html">Updates the coordinate that the aircraft will follow with a customized altitude.</Abstract>
+			<DeclaredIn>DJIFollowMeMission.h</DeclaredIn>
+			
+			<Declaration>+ (void)updateFollowMeCoordinate:(CLLocationCoordinate2D)coordinate altitude:(float)altitude withCompletion:(DJICompletionBlock)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>coordinate</Name>
+					<Abstract type="html">Coordinate the aricraft will follow. Should be within 200m horizontal distance of current location.</Abstract>
+				</Parameter><Parameter>
+					<Name>altitude</Name>
+					<Abstract type="html">The following altitude.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">Completion block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateFollowMeCoordinate:altitude:withCompletion:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

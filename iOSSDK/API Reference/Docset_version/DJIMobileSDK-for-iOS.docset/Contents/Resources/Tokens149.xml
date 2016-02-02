@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJIRCToAircraftPairingState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJIRCToAircraftPairingState</TokenIdentifier>
+			<Abstract type="html">Remote Controller pairing state.</Abstract>
+			<DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="149"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCToAircraftPairingStateNotParing</TokenIdentifier>
+            <Abstract type="html">The Remote Controller is not pairing.
+     </Abstract>
+            <Declaration>DJIRCToAircraftPairingStateNotParing</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="149"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCToAircraftPairingStateParing</TokenIdentifier>
+            <Abstract type="html">The Remote Controller is currently pairing.
+     </Abstract>
+            <Declaration>DJIRCToAircraftPairingStateParing</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="149"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCToAircraftPairingStateCompleted</TokenIdentifier>
+            <Abstract type="html">The Remote Controller&apos;s pairing was completed.
+     </Abstract>
+            <Declaration>DJIRCToAircraftPairingStateCompleted</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="149"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCToAircraftPairingStateUnknown</TokenIdentifier>
+            <Abstract type="html">The Remote Controller&apos;s pairing state is unknown.
+     </Abstract>
+            <Declaration>DJIRCToAircraftPairingStateUnknown</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="149"/>
+        </Token>
+        
+	</File>
+</Tokens>

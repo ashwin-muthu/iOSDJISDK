@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJIMediaType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJIMediaType</TokenIdentifier>
+			<Abstract type="html">Media types.</Abstract>
+			<DeclaredIn>DJIMedia.h</DeclaredIn>
+            
+			
+			<NodeRef refid="138"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIMediaTypeUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown.
+     </Abstract>
+            <Declaration>DJIMediaTypeUnknown</Declaration>
+            
+            <DeclaredIn>DJIMedia.h</DeclaredIn>
+            
+            <NodeRef refid="138"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIMediaTypeJPEG</TokenIdentifier>
+            <Abstract type="html">JPEG.
+     </Abstract>
+            <Declaration>DJIMediaTypeJPEG</Declaration>
+            
+            <DeclaredIn>DJIMedia.h</DeclaredIn>
+            
+            <NodeRef refid="138"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIMediaTypeMP4</TokenIdentifier>
+            <Abstract type="html">MP4.
+     </Abstract>
+            <Declaration>DJIMediaTypeMP4</Declaration>
+            
+            <DeclaredIn>DJIMedia.h</DeclaredIn>
+            
+            <NodeRef refid="138"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIMediaTypeMOV</TokenIdentifier>
+            <Abstract type="html">MOV.
+     </Abstract>
+            <Declaration>DJIMediaTypeMOV</Declaration>
+            
+            <DeclaredIn>DJIMedia.h</DeclaredIn>
+            
+            <NodeRef refid="138"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIMediaTypeM4V</TokenIdentifier>
+            <Abstract type="html">M4V.
+     </Abstract>
+            <Declaration>DJIMediaTypeM4V</Declaration>
+            
+            <DeclaredIn>DJIMedia.h</DeclaredIn>
+            
+            <NodeRef refid="138"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIMediaTypeRAWDNG</TokenIdentifier>
+            <Abstract type="html">DNG.
+     </Abstract>
+            <Declaration>DJIMediaTypeRAWDNG</Declaration>
+            
+            <DeclaredIn>DJIMedia.h</DeclaredIn>
+            
+            <NodeRef refid="138"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIMediaTypePanorama</TokenIdentifier>
+            <Abstract type="html">Panorama
+     </Abstract>
+            <Declaration>DJIMediaTypePanorama</Declaration>
+            
+            <DeclaredIn>DJIMedia.h</DeclaredIn>
+            
+            <NodeRef refid="138"/>
+        </Token>
+        
+	</File>
+</Tokens>

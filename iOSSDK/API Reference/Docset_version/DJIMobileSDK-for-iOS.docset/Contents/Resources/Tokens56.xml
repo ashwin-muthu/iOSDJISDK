@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIWaypointAction.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIWaypointAction</TokenIdentifier>
+			<Abstract type="html">This class represents a waypoint action for DJIWaypoint. It determines what action is performed when the aircraft reaches the corresponding waypoint.</Abstract>
+			<DeclaredIn>DJIWaypoint.h</DeclaredIn>
+            
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWaypointAction/setActionType:</TokenIdentifier>
+			<Abstract type="html">Waypoint action of type DJIWaypointActionType the aircraft will execute once the aircraft
+reaches the waypoint. Please find all the possible actions in the enum named
+DJIWaypointActionType above.</Abstract>
+			<DeclaredIn>DJIWaypoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) DJIWaypointActionType actionType</Declaration>
+			
+			
+			<Anchor>//api/name/actionType</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWaypointAction/actionType</TokenIdentifier>
+			<Abstract type="html">Waypoint action of type DJIWaypointActionType the aircraft will execute once the aircraft
+reaches the waypoint. Please find all the possible actions in the enum named
+DJIWaypointActionType above.</Abstract>
+			<DeclaredIn>DJIWaypoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) DJIWaypointActionType actionType</Declaration>
+			
+			
+			<Anchor>//api/name/actionType</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIWaypointAction/actionType</TokenIdentifier>
+			<Abstract type="html">Waypoint action of type DJIWaypointActionType the aircraft will execute once the aircraft
+reaches the waypoint. Please find all the possible actions in the enum named
+DJIWaypointActionType above.</Abstract>
+			<DeclaredIn>DJIWaypoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) DJIWaypointActionType actionType</Declaration>
+			
+			
+			<Anchor>//api/name/actionType</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWaypointAction/setActionParam:</TokenIdentifier>
+			<Abstract type="html">Action parameter of a waypoint action. See enum DJIWaypointAction for details on which actions will use actionParam.</Abstract>
+			<DeclaredIn>DJIWaypoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int16_t actionParam</Declaration>
+			
+			
+			<Anchor>//api/name/actionParam</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWaypointAction/actionParam</TokenIdentifier>
+			<Abstract type="html">Action parameter of a waypoint action. See enum DJIWaypointAction for details on which actions will use actionParam.</Abstract>
+			<DeclaredIn>DJIWaypoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int16_t actionParam</Declaration>
+			
+			
+			<Anchor>//api/name/actionParam</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIWaypointAction/actionParam</TokenIdentifier>
+			<Abstract type="html">Action parameter of a waypoint action. See enum DJIWaypointAction for details on which actions will use actionParam.</Abstract>
+			<DeclaredIn>DJIWaypoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int16_t actionParam</Declaration>
+			
+			
+			<Anchor>//api/name/actionParam</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWaypointAction/initWithActionType:param:</TokenIdentifier>
+			<Abstract type="html">Initialize the class with a specific action type and corresponding parameter.</Abstract>
+			<DeclaredIn>DJIWaypoint.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithActionType:(DJIWaypointActionType)type param:(int16_t)param</Declaration>
+			
+			
+			<Anchor>//api/name/initWithActionType:param:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

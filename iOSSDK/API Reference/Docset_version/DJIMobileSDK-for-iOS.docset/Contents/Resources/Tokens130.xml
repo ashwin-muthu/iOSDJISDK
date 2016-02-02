@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJILBAirLinkPIPDisplayMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJILBAirLinkPIPDisplayMode</TokenIdentifier>
+			<Abstract type="html">Define the combination of video sources to form the secondary output video.</Abstract>
+			<DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+			
+			<NodeRef refid="130"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkPIPDisplayModeLB</TokenIdentifier>
+            <Abstract type="html">Displays the FPV Camera (HDMI or AV input to the air link Module).
+     </Abstract>
+            <Declaration>DJILBAirLinkPIPDisplayModeLB</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="130"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkPIPDisplayModeExt</TokenIdentifier>
+            <Abstract type="html">Displays the video from the HD Gimbal (Gimbal input to the air link Module).
+     </Abstract>
+            <Declaration>DJILBAirLinkPIPDisplayModeExt</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="130"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkPIPDisplayModePIPLB</TokenIdentifier>
+            <Abstract type="html">Displays the video from HD Gimbal camera as the main subject, and the HDMI or AV video from FPV camera in a mini window (Picture in Picture, or PIP).
+     </Abstract>
+            <Declaration>DJILBAirLinkPIPDisplayModePIPLB</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="130"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkPIPDisplayModePIPExt</TokenIdentifier>
+            <Abstract type="html">Displays the HDMI or AV output of the FPV camera as the main subject, and the video from the HD Gimbal in a mini window (Picture in Picture, or PIP).
+     </Abstract>
+            <Declaration>DJILBAirLinkPIPDisplayModePIPExt</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="130"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkPIPDisplayModeUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown output mode.
+     </Abstract>
+            <Declaration>DJILBAirLinkPIPDisplayModeUnknown</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="130"/>
+        </Token>
+        
+	</File>
+</Tokens>

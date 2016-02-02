@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIShootPhotoStep.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIShootPhotoStep</TokenIdentifier>
+			<Abstract type="html">This class represents a step related to photo-shooting for a custom mission. By creating an object of this class and adding it into a custom mission, user can shoot photo during the custom mission execution.</Abstract>
+			<DeclaredIn>DJIShootPhotoStep.h</DeclaredIn>
+            
+			
+			<NodeRef refid="52"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIShootPhotoStep/initWithSingleShootPhoto</TokenIdentifier>
+			<Abstract type="html">Initialized step for taking a single photo.</Abstract>
+			<DeclaredIn>DJIShootPhotoStep.h</DeclaredIn>
+			
+			<Declaration>- (instancetype _Nullable)initWithSingleShootPhoto</Declaration>
+			
+			<ReturnValue><Abstract type="html">Instance of DJIShootPhotoStep.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithSingleShootPhoto</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIShootPhotoStep/initWithPhotoCount:timeInterval:</TokenIdentifier>
+			<Abstract type="html">Initialized step for continous shoot photo.</Abstract>
+			<DeclaredIn>DJIShootPhotoStep.h</DeclaredIn>
+			
+			<Declaration>- (instancetype _Nullable)initWithPhotoCount:(int)count timeInterval:(double)interval</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>count</Name>
+					<Abstract type="html">Photo count.</Abstract>
+				</Parameter><Parameter>
+					<Name>interval</Name>
+					<Abstract type="html">Time interval in seconds between shooting photos.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Instance of DJIShootPhotoStep.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithPhotoCount:timeInterval:</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

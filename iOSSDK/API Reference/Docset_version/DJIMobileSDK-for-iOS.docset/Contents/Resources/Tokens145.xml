@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJIRCJoinMasterResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJIRCJoinMasterResult</TokenIdentifier>
+			<Abstract type="html">Result when a slave Remote Controller tries to join
+a master Remote Controller.</Abstract>
+			<DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="145"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCJoinMasterResultSuccessful</TokenIdentifier>
+            <Abstract type="html">The slave Remote Controller&apos;s attempt to join
+the master Remote Controller was successful.
+     </Abstract>
+            <Declaration>DJIRCJoinMasterResultSuccessful</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCJoinMasterResultPasswordError</TokenIdentifier>
+            <Abstract type="html">The slave Remote Controller&apos;s attempt to join
+the master Remote Controller was unsuccessful
+due to a password error.
+     </Abstract>
+            <Declaration>DJIRCJoinMasterResultPasswordError</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCJoinMasterResultRejected</TokenIdentifier>
+            <Abstract type="html">The slave Remote Controller&apos;s attempt to join
+the master Remote Controller was rejected.
+     </Abstract>
+            <Declaration>DJIRCJoinMasterResultRejected</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCJoinMasterResultReachMaximum</TokenIdentifier>
+            <Abstract type="html">The slave Remote Controller&apos;s attempt to join
+the master Remote Controller was unsuccesful
+because the master Remote Controller is at the
+maximum number of slaves it can have.
+     </Abstract>
+            <Declaration>DJIRCJoinMasterResultReachMaximum</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCJoinMasterResultResponseTimeout</TokenIdentifier>
+            <Abstract type="html">The slave Remote Controller&apos;s attempt to join
+the master Remote Controller was unsuccessful
+because the request timed out.
+     </Abstract>
+            <Declaration>DJIRCJoinMasterResultResponseTimeout</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCJoinMasterResultUnknown</TokenIdentifier>
+            <Abstract type="html">The result of the slave Remote Controller&apos;s
+attempt to join the master Remote Controller
+is unknown.
+     </Abstract>
+            <Declaration>DJIRCJoinMasterResultUnknown</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+	</File>
+</Tokens>

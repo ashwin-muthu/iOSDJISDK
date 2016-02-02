@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJIHotPointStartPoint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJIHotPointStartPoint</TokenIdentifier>
+			<Abstract type="html">Aircraft start point relative to hot point.</Abstract>
+			<DeclaredIn>DJIHotPointMission.h</DeclaredIn>
+            
+			
+			<NodeRef refid="124"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIHotPointStartPointNorth</TokenIdentifier>
+            <Abstract type="html">Start from the North.
+     </Abstract>
+            <Declaration>DJIHotPointStartPointNorth</Declaration>
+            
+            <DeclaredIn>DJIHotPointMission.h</DeclaredIn>
+            
+            <NodeRef refid="124"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIHotPointStartPointSouth</TokenIdentifier>
+            <Abstract type="html">Start from the South.
+     </Abstract>
+            <Declaration>DJIHotPointStartPointSouth</Declaration>
+            
+            <DeclaredIn>DJIHotPointMission.h</DeclaredIn>
+            
+            <NodeRef refid="124"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIHotPointStartPointWest</TokenIdentifier>
+            <Abstract type="html">Start from the West.
+     </Abstract>
+            <Declaration>DJIHotPointStartPointWest</Declaration>
+            
+            <DeclaredIn>DJIHotPointMission.h</DeclaredIn>
+            
+            <NodeRef refid="124"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIHotPointStartPointEast</TokenIdentifier>
+            <Abstract type="html">Start from the East
+     </Abstract>
+            <Declaration>DJIHotPointStartPointEast</Declaration>
+            
+            <DeclaredIn>DJIHotPointMission.h</DeclaredIn>
+            
+            <NodeRef refid="124"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIHotPointStartPointNearest</TokenIdentifier>
+            <Abstract type="html">Start the circle surrounding the hotpoint at the nearest point
+on the circle to the aircraft&apos;s current location.
+     </Abstract>
+            <Declaration>DJIHotPointStartPointNearest</Declaration>
+            
+            <DeclaredIn>DJIHotPointMission.h</DeclaredIn>
+            
+            <NodeRef refid="124"/>
+        </Token>
+        
+	</File>
+</Tokens>

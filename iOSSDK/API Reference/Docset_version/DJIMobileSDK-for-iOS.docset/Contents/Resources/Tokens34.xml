@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIHotPointMissionStatus.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIHotPointMissionStatus</TokenIdentifier>
+			<Abstract type="html">This class provides the real-time status of the executing hot-point mission.</Abstract>
+			<DeclaredIn>DJIHotPointMission.h</DeclaredIn>
+            
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHotPointMissionStatus/setExecutionState:</TokenIdentifier>
+			<Abstract type="html">Returns the current execution state of the hot point mission.</Abstract>
+			<DeclaredIn>DJIHotPointMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIHotpointMissionExecutionState executionState</Declaration>
+			
+			
+			<Anchor>//api/name/executionState</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHotPointMissionStatus/executionState</TokenIdentifier>
+			<Abstract type="html">Returns the current execution state of the hot point mission.</Abstract>
+			<DeclaredIn>DJIHotPointMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIHotpointMissionExecutionState executionState</Declaration>
+			
+			
+			<Anchor>//api/name/executionState</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIHotPointMissionStatus/executionState</TokenIdentifier>
+			<Abstract type="html">Returns the current execution state of the hot point mission.</Abstract>
+			<DeclaredIn>DJIHotPointMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIHotpointMissionExecutionState executionState</Declaration>
+			
+			
+			<Anchor>//api/name/executionState</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHotPointMissionStatus/setCurrentDistanceToHotpoint:</TokenIdentifier>
+			<Abstract type="html">The current horizontal distance between the aircraft and the hot point in meters.</Abstract>
+			<DeclaredIn>DJIHotPointMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float currentDistanceToHotpoint</Declaration>
+			
+			
+			<Anchor>//api/name/currentDistanceToHotpoint</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHotPointMissionStatus/currentDistanceToHotpoint</TokenIdentifier>
+			<Abstract type="html">The current horizontal distance between the aircraft and the hot point in meters.</Abstract>
+			<DeclaredIn>DJIHotPointMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float currentDistanceToHotpoint</Declaration>
+			
+			
+			<Anchor>//api/name/currentDistanceToHotpoint</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIHotPointMissionStatus/currentDistanceToHotpoint</TokenIdentifier>
+			<Abstract type="html">The current horizontal distance between the aircraft and the hot point in meters.</Abstract>
+			<DeclaredIn>DJIHotPointMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float currentDistanceToHotpoint</Declaration>
+			
+			
+			<Anchor>//api/name/currentDistanceToHotpoint</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

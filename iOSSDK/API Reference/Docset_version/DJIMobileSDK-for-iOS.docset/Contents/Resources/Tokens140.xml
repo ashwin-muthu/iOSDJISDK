@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJIRCControlChannelName.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJIRCControlChannelName</TokenIdentifier>
+			<Abstract type="html">Remote Controller control channels. These will be used in RC Custom Control Style. Please refer to
+RCControlStyleCustom and RCSlaveControlStyleCustom.</Abstract>
+			<DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="140"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCControlChannelNameThrottle</TokenIdentifier>
+            <Abstract type="html">Throttle control channel.
+     </Abstract>
+            <Declaration>DJIRCControlChannelNameThrottle</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="140"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCControlChannelNamePitch</TokenIdentifier>
+            <Abstract type="html">Pitch control channel.
+     </Abstract>
+            <Declaration>DJIRCControlChannelNamePitch</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="140"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCControlChannelNameRoll</TokenIdentifier>
+            <Abstract type="html">Roll control channel.
+     </Abstract>
+            <Declaration>DJIRCControlChannelNameRoll</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="140"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIRCControlChannelNameYaw</TokenIdentifier>
+            <Abstract type="html">Yaw control channel.
+     </Abstract>
+            <Declaration>DJIRCControlChannelNameYaw</Declaration>
+            
+            <DeclaredIn>DJIRemoteController.h</DeclaredIn>
+            
+            <NodeRef refid="140"/>
+        </Token>
+        
+	</File>
+</Tokens>

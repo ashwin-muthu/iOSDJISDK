@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJIHandheldPowerMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJIHandheldPowerMode</TokenIdentifier>
+			<Abstract type="html">Handheld Power Mode</Abstract>
+			<DeclaredIn>DJIHandheldController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="121"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIHandheldPowerModeAwake</TokenIdentifier>
+            <Abstract type="html">The Handheld Power Mode is awake.
+For OSMO, when it is in this mode, all the components in DJIHandheld are accessible.
+     </Abstract>
+            <Declaration>DJIHandheldPowerModeAwake</Declaration>
+            
+            <DeclaredIn>DJIHandheldController.h</DeclaredIn>
+            
+            <NodeRef refid="121"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIHandheldPowerModeSleeping</TokenIdentifier>
+            <Abstract type="html">The Handheld Power Mode is sleeping. The handheld controller keeps the WiFi connection
+to the Mobile device alive but most other components are off. The power consumption is low
+in this mode.
+For OSMO, when it is in this mode, only the DJIHandheldController, DJIAirLink and DJIBattery
+are accessible.
+     </Abstract>
+            <Declaration>DJIHandheldPowerModeSleeping</Declaration>
+            
+            <DeclaredIn>DJIHandheldController.h</DeclaredIn>
+            
+            <NodeRef refid="121"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIHandheldPowerModePowerOff</TokenIdentifier>
+            <Abstract type="html">The Handheld Power Mode is power-off. Once this mode is set the delegate will receive this mode until the handheld device is
+shut down completely.
+     </Abstract>
+            <Declaration>DJIHandheldPowerModePowerOff</Declaration>
+            
+            <DeclaredIn>DJIHandheldController.h</DeclaredIn>
+            
+            <NodeRef refid="121"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIHandheldPowerModeUnknown</TokenIdentifier>
+            <Abstract type="html">The Handheld Power Mode in unkown.
+     </Abstract>
+            <Declaration>DJIHandheldPowerModeUnknown</Declaration>
+            
+            <DeclaredIn>DJIHandheldController.h</DeclaredIn>
+            
+            <NodeRef refid="121"/>
+        </Token>
+        
+	</File>
+</Tokens>

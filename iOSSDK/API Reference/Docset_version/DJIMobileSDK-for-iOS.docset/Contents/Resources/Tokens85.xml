@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraFileIndexMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraFileIndexMode</TokenIdentifier>
+			<Abstract type="html">File index modes.</Abstract>
+			<DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+			
+			<NodeRef refid="85"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraFileIndexModeReset</TokenIdentifier>
+            <Abstract type="html">Camera will reset the newest file&apos;s index to be one larger than the largest number of photos
+taken on the SD card.
+     </Abstract>
+            <Declaration>DJICameraFileIndexModeReset</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="85"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraFileIndexModeSequence</TokenIdentifier>
+            <Abstract type="html">Camera will set the newest file&apos;s index to the larger of either the maximum number of photos
+taken on the SD card or the camera.
+     </Abstract>
+            <Declaration>DJICameraFileIndexModeSequence</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="85"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraFileIndexModeUnknown</TokenIdentifier>
+            <Abstract type="html">The mode is unknown.
+     </Abstract>
+            <Declaration>DJICameraFileIndexModeUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="85"/>
+        </Token>
+        
+	</File>
+</Tokens>

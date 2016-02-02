@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJILandingGearMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJILandingGearMode</TokenIdentifier>
+			<Abstract type="html">Current Mode of the Landing Gear</Abstract>
+			<DeclaredIn>DJILandingGear.h</DeclaredIn>
+            
+			
+			<NodeRef refid="134"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILandingGearModeNormal</TokenIdentifier>
+            <Abstract type="html">Landing Gear can be deployed and retracted through function calls
+     </Abstract>
+            <Declaration>DJILandingGearModeNormal</Declaration>
+            
+            <DeclaredIn>DJILandingGear.h</DeclaredIn>
+            
+            <NodeRef refid="134"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILandingGearModeTransport</TokenIdentifier>
+            <Abstract type="html">Landing Gear is in transport mode (either it is moving into, moving out of, or stopped in transport position)
+     </Abstract>
+            <Declaration>DJILandingGearModeTransport</Declaration>
+            
+            <DeclaredIn>DJILandingGear.h</DeclaredIn>
+            
+            <NodeRef refid="134"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILandingGearModeAuto</TokenIdentifier>
+            <Abstract type="html">Landing Gear automatically transitions between deployed and retracted depending on altitude. During take-off, the transition point is 1.2m above ground. After take-off (during flight or when landing), the transition point is 0.5m above ground.
+     </Abstract>
+            <Declaration>DJILandingGearModeAuto</Declaration>
+            
+            <DeclaredIn>DJILandingGear.h</DeclaredIn>
+            
+            <NodeRef refid="134"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILandingGearModeUnknown</TokenIdentifier>
+            <Abstract type="html">Landing Gear is in an unknown mode
+     </Abstract>
+            <Declaration>DJILandingGearModeUnknown</Declaration>
+            
+            <DeclaredIn>DJILandingGear.h</DeclaredIn>
+            
+            <NodeRef refid="134"/>
+        </Token>
+        
+	</File>
+</Tokens>

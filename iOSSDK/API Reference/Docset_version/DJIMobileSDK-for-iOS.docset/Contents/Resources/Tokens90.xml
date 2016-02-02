@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraMode</TokenIdentifier>
+			<Abstract type="html">Camera work modes.</Abstract>
+			<DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+			
+			<NodeRef refid="90"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraModeShootPhoto</TokenIdentifier>
+            <Abstract type="html">Capture mode. In this mode, the user can capture pictures.
+     </Abstract>
+            <Declaration>DJICameraModeShootPhoto</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="90"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraModeRecordVideo</TokenIdentifier>
+            <Abstract type="html">Record mode. In this mode, the user can record videos.
+     </Abstract>
+            <Declaration>DJICameraModeRecordVideo</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="90"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraModePlayback</TokenIdentifier>
+            <Abstract type="html">Playback mode. In this mode, the user can preview photos and videos, and
+they can delete files.</Abstract>
+            <Declaration>DJICameraModePlayback</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="90"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraModeMediaDownload</TokenIdentifier>
+            <Abstract type="html">In this mode, user can download media to Mobile Device.</Abstract>
+            <Declaration>DJICameraModeMediaDownload</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="90"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraModeUnknown</TokenIdentifier>
+            <Abstract type="html">The camera work mode is unknown.
+     </Abstract>
+            <Declaration>DJICameraModeUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="90"/>
+        </Token>
+        
+	</File>
+</Tokens>

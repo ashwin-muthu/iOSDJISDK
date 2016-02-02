@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIHandheld.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIHandheld</TokenIdentifier>
+			<Abstract type="html">This class contains the components of a handheld device.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+            
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHandheld/setCamera:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld device&apos;s camera.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJICamera *camera</Declaration>
+			
+			
+			<Anchor>//api/name/camera</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHandheld/camera</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld device&apos;s camera.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJICamera *camera</Declaration>
+			
+			
+			<Anchor>//api/name/camera</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIHandheld/camera</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld device&apos;s camera.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJICamera *camera</Declaration>
+			
+			
+			<Anchor>//api/name/camera</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHandheld/setGimbal:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld device&apos;s gimbal.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIGimbal *gimbal</Declaration>
+			
+			
+			<Anchor>//api/name/gimbal</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHandheld/gimbal</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld device&apos;s gimbal.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIGimbal *gimbal</Declaration>
+			
+			
+			<Anchor>//api/name/gimbal</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIHandheld/gimbal</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld device&apos;s gimbal.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIGimbal *gimbal</Declaration>
+			
+			
+			<Anchor>//api/name/gimbal</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHandheld/setBattery:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld device&apos;s battery.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIBattery *battery</Declaration>
+			
+			
+			<Anchor>//api/name/battery</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHandheld/battery</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld device&apos;s battery.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIBattery *battery</Declaration>
+			
+			
+			<Anchor>//api/name/battery</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIHandheld/battery</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld device&apos;s battery.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIBattery *battery</Declaration>
+			
+			
+			<Anchor>//api/name/battery</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHandheld/setHandheldController:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld device&apos;s handheldController.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIHandheldController *handheldController</Declaration>
+			
+			
+			<Anchor>//api/name/handheldController</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHandheld/handheldController</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld device&apos;s handheldController.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIHandheldController *handheldController</Declaration>
+			
+			
+			<Anchor>//api/name/handheldController</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIHandheld/handheldController</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld device&apos;s handheldController.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIHandheldController *handheldController</Declaration>
+			
+			
+			<Anchor>//api/name/handheldController</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHandheld/setAirLink:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld&apos;s airLink.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIAirLink *airLink</Declaration>
+			
+			
+			<Anchor>//api/name/airLink</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHandheld/airLink</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld&apos;s airLink.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIAirLink *airLink</Declaration>
+			
+			
+			<Anchor>//api/name/airLink</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIHandheld/airLink</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the handheld&apos;s airLink.</Abstract>
+			<DeclaredIn>DJIHandheld.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIAirLink *airLink</Declaration>
+			
+			
+			<Anchor>//api/name/airLink</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

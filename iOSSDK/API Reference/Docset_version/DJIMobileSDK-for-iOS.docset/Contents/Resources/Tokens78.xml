@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraAntiFlicker.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraAntiFlicker</TokenIdentifier>
+			<Abstract type="html">Camera anti-flickers. The default value is CameraAntiFlicker50Hz.</Abstract>
+			<DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+			
+			<NodeRef refid="78"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraAntiFlickerAuto</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s anti-flicker is automatically set.
+     </Abstract>
+            <Declaration>DJICameraAntiFlickerAuto</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="78"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraAntiFlicker60Hz</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s anti-flicker is 60 Hz.
+     </Abstract>
+            <Declaration>DJICameraAntiFlicker60Hz</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="78"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraAntiFlicker50Hz</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s anti-flicker is 50 Hz.
+     </Abstract>
+            <Declaration>DJICameraAntiFlicker50Hz</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="78"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraAntiFlickerUnknown</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s anti-flicker is unknown.
+     </Abstract>
+            <Declaration>DJICameraAntiFlickerUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="78"/>
+        </Token>
+        
+	</File>
+</Tokens>

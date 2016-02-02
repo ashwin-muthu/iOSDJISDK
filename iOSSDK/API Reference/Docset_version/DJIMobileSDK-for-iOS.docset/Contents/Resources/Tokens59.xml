@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIWaypointStep.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIWaypointStep</TokenIdentifier>
+			<Abstract type="html">This class represents a way-point step for a custom mission. By creating an object of this class and adding it into
+a custom mission, a way-point action will be performed during the custom mission.</Abstract>
+			<DeclaredIn>DJIWaypointStep.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIWaypointMission</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="59"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWaypointStep/initWithWaypointMission:</TokenIdentifier>
+			<Abstract type="html">Initialized instance with a waypoint mission.</Abstract>
+			<DeclaredIn>DJIWaypointStep.h</DeclaredIn>
+			
+			<Declaration>- (instancetype _Nullable)initWithWaypointMission:(DJIWaypointMission *_Nonnull)mission</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mission</Name>
+					<Abstract type="html">Waypoint mission.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Instance of DJIWaypointStep.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithWaypointMission:</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

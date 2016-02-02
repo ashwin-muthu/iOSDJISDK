@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraWhiteBalance.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraWhiteBalance</TokenIdentifier>
+			<Abstract type="html">Camera white balance. The default value is CameraWhiteBalanceAuto.</Abstract>
+			<DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+			
+			<NodeRef refid="106"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraWhiteBalanceAuto</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s white balance is automatically set.
+     </Abstract>
+            <Declaration>DJICameraWhiteBalanceAuto</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="106"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraWhiteBalanceSunny</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s white balance is set to sunny.
+     </Abstract>
+            <Declaration>DJICameraWhiteBalanceSunny</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="106"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraWhiteBalanceCloudy</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s white balance is set to cloudy.
+     </Abstract>
+            <Declaration>DJICameraWhiteBalanceCloudy</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="106"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraWhiteBalanceWaterSuface</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s white balance is set to water surface.
+     </Abstract>
+            <Declaration>DJICameraWhiteBalanceWaterSuface</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="106"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraWhiteBalanceIndoorsIncandescent</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s white balance is set to indoors and incandescent light.
+     </Abstract>
+            <Declaration>DJICameraWhiteBalanceIndoorsIncandescent</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="106"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraWhiteBalanceIndoorsFluorescent</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s white balance is set to indoors and fluorescent light.
+     </Abstract>
+            <Declaration>DJICameraWhiteBalanceIndoorsFluorescent</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="106"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraWhiteBalanceCustomColorTemperature</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s white balance is set to custom color temperature.
+By using this white balance value, user can set a specific value for the
+color temperature.
+     </Abstract>
+            <Declaration>DJICameraWhiteBalanceCustomColorTemperature</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="106"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraWhiteBalanceUnknown</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s white balance is unknown.
+     </Abstract>
+            <Declaration>DJICameraWhiteBalanceUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="106"/>
+        </Token>
+        
+	</File>
+</Tokens>

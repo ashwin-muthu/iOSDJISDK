@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/DJIGimbalDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/DJIGimbalDelegate</TokenIdentifier>
+			<Abstract type="html">This protocol provides delegate methods to receive the updated state and user configuration.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+            
+			
+			<NodeRef refid="68"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJIGimbalDelegate/gimbalController:didUpdateGimbalState:</TokenIdentifier>
+			<Abstract type="html">Updates the gimbal&apos;s current state.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>- (void)gimbalController:(DJIGimbal *)controller didUpdateGimbalState:(DJIGimbalState *)gimbalState</Declaration>
+			
+			
+			<Anchor>//api/name/gimbalController:didUpdateGimbalState:</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJIGimbalDelegate/gimbalController:didUpdateGimbalConfig:</TokenIdentifier>
+			<Abstract type="html">Update the gimbal&apos;s user config data. Method only supported for OSMO.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>- (void)gimbalController:(DJIGimbal *)controller didUpdateGimbalConfig:(DJIGimbalConfig *)gimbalConfig</Declaration>
+			
+			
+			<Anchor>//api/name/gimbalController:didUpdateGimbalConfig:</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

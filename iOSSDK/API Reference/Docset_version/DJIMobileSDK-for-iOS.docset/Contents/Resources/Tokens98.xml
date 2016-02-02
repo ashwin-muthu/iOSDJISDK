@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraPlaybackMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraPlaybackMode</TokenIdentifier>
+			<Abstract type="html">A playback mode represents a task that the Playback manager is executing.</Abstract>
+			<DeclaredIn>DJICameraPlaybackState.h</DeclaredIn>
+            
+			
+			<NodeRef refid="98"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPlaybackModeSingleFilePreview</TokenIdentifier>
+            <Abstract type="html">Single file preview
+     </Abstract>
+            <Declaration>DJICameraPlaybackModeSingleFilePreview</Declaration>
+            
+            <DeclaredIn>DJICameraPlaybackState.h</DeclaredIn>
+            
+            <NodeRef refid="98"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPlaybackModeSinglePhotoZoomMode</TokenIdentifier>
+            <Abstract type="html">Single photo zoomed
+     </Abstract>
+            <Declaration>DJICameraPlaybackModeSinglePhotoZoomMode</Declaration>
+            
+            <DeclaredIn>DJICameraPlaybackState.h</DeclaredIn>
+            
+            <NodeRef refid="98"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPlaybackModeSingleVideoPlaybackStart</TokenIdentifier>
+            <Abstract type="html">Single video play start
+     </Abstract>
+            <Declaration>DJICameraPlaybackModeSingleVideoPlaybackStart</Declaration>
+            
+            <DeclaredIn>DJICameraPlaybackState.h</DeclaredIn>
+            
+            <NodeRef refid="98"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPlaybackModeSingleVideoPlaybackPause</TokenIdentifier>
+            <Abstract type="html">Single video play pause
+     </Abstract>
+            <Declaration>DJICameraPlaybackModeSingleVideoPlaybackPause</Declaration>
+            
+            <DeclaredIn>DJICameraPlaybackState.h</DeclaredIn>
+            
+            <NodeRef refid="98"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPlaybackModeMultipleFilesEdit</TokenIdentifier>
+            <Abstract type="html">Multiple file edit
+     </Abstract>
+            <Declaration>DJICameraPlaybackModeMultipleFilesEdit</Declaration>
+            
+            <DeclaredIn>DJICameraPlaybackState.h</DeclaredIn>
+            
+            <NodeRef refid="98"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPlaybackModeMultipleFilesPreview</TokenIdentifier>
+            <Abstract type="html">Multiple file preview
+     </Abstract>
+            <Declaration>DJICameraPlaybackModeMultipleFilesPreview</Declaration>
+            
+            <DeclaredIn>DJICameraPlaybackState.h</DeclaredIn>
+            
+            <NodeRef refid="98"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPlaybackModeDownload</TokenIdentifier>
+            <Abstract type="html">Download file
+     </Abstract>
+            <Declaration>DJICameraPlaybackModeDownload</Declaration>
+            
+            <DeclaredIn>DJICameraPlaybackState.h</DeclaredIn>
+            
+            <NodeRef refid="98"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPlaybackModeUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown mode
+     </Abstract>
+            <Declaration>DJICameraPlaybackModeUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraPlaybackState.h</DeclaredIn>
+            
+            <NodeRef refid="98"/>
+        </Token>
+        
+	</File>
+</Tokens>

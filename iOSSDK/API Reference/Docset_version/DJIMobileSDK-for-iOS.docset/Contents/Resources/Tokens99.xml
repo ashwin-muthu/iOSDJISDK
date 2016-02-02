@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraSharpness.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraSharpness</TokenIdentifier>
+			<Abstract type="html">Camera sharpnesss. The default value is CameraSharpnessStandard.</Abstract>
+			<DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+			
+			<NodeRef refid="99"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraSharpnessStandard</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s sharpness is set to standard.
+     </Abstract>
+            <Declaration>DJICameraSharpnessStandard</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="99"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraSharpnessHard</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s sharpness is set to hard.
+     </Abstract>
+            <Declaration>DJICameraSharpnessHard</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="99"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraSharpnessSoft</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s sharpness is set to soft.
+     </Abstract>
+            <Declaration>DJICameraSharpnessSoft</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="99"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraSharpnessUnknown</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s sharpness is set to unknown.
+     </Abstract>
+            <Declaration>DJICameraSharpnessUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="99"/>
+        </Token>
+        
+	</File>
+</Tokens>

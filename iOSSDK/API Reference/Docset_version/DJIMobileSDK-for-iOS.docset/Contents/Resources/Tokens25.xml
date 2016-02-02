@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIGimbalAttitudeStep.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIGimbalAttitudeStep</TokenIdentifier>
+			<Abstract type="html">Subclass of DJIMission Step, you can control gimbal attitude using this mission step.</Abstract>
+			<DeclaredIn>DJIGimbalAttitudeStep.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalAttitudeStep/setCompletionTime:</TokenIdentifier>
+			<Abstract type="html">Completion time in seconds for gimbal go to target attitude from current attitude. Default is 1s.</Abstract>
+			<DeclaredIn>DJIGimbalAttitudeStep.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double completionTime</Declaration>
+			
+			
+			<Anchor>//api/name/completionTime</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalAttitudeStep/completionTime</TokenIdentifier>
+			<Abstract type="html">Completion time in seconds for gimbal go to target attitude from current attitude. Default is 1s.</Abstract>
+			<DeclaredIn>DJIGimbalAttitudeStep.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double completionTime</Declaration>
+			
+			
+			<Anchor>//api/name/completionTime</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalAttitudeStep/completionTime</TokenIdentifier>
+			<Abstract type="html">Completion time in seconds for gimbal go to target attitude from current attitude. Default is 1s.</Abstract>
+			<DeclaredIn>DJIGimbalAttitudeStep.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double completionTime</Declaration>
+			
+			
+			<Anchor>//api/name/completionTime</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalAttitudeStep/setTargetAttitude:</TokenIdentifier>
+			<Abstract type="html">Target gimbal attitude.</Abstract>
+			<DeclaredIn>DJIGimbalAttitudeStep.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIGimbalAttitude targetAttitude</Declaration>
+			
+			
+			<Anchor>//api/name/targetAttitude</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalAttitudeStep/targetAttitude</TokenIdentifier>
+			<Abstract type="html">Target gimbal attitude.</Abstract>
+			<DeclaredIn>DJIGimbalAttitudeStep.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIGimbalAttitude targetAttitude</Declaration>
+			
+			
+			<Anchor>//api/name/targetAttitude</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalAttitudeStep/targetAttitude</TokenIdentifier>
+			<Abstract type="html">Target gimbal attitude.</Abstract>
+			<DeclaredIn>DJIGimbalAttitudeStep.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIGimbalAttitude targetAttitude</Declaration>
+			
+			
+			<Anchor>//api/name/targetAttitude</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalAttitudeStep/initWithAttitude:</TokenIdentifier>
+			<Abstract type="html">Initialized instance with gimbal target attitude.</Abstract>
+			<DeclaredIn>DJIGimbalAttitudeStep.h</DeclaredIn>
+			
+			<Declaration>- (instancetype _Nullable)initWithAttitude:(DJIGimbalAttitude)attitude</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>attitude</Name>
+					<Abstract type="html">Gimbal target attitude.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Instance of DJIGimbalAttitudeStep.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithAttitude:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIPlaybackManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIPlaybackManager</TokenIdentifier>
+			<Abstract type="html">The playback manager is used to interact with the playback system of the camera.
+By using the manager, user can control the playback system.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="46"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;DJIPlaybackDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;DJIPlaybackDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIPlaybackManager/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;DJIPlaybackDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/enterMultipleEditMode</TokenIdentifier>
+			<Abstract type="html">This enables the user to select, download and/or delete multiple media files when the camera is in Playback mode.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)enterMultipleEditMode</Declaration>
+			
+			
+			<Anchor>//api/name/enterMultipleEditMode</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/exitMultipleEditMode</TokenIdentifier>
+			<Abstract type="html">Exits multiple edit mode.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)exitMultipleEditMode</Declaration>
+			
+			
+			<Anchor>//api/name/exitMultipleEditMode</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/toggleFileSelectionAtIndex:</TokenIdentifier>
+			<Abstract type="html">Selects or unselects a file at the specified index of the current page. This index is unrelated to filename, and used in multiple edit mode.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)toggleFileSelectionAtIndex:(int)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Index at which to select a file.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/toggleFileSelectionAtIndex:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/selectAllFiles</TokenIdentifier>
+			<Abstract type="html">Selects all the files on the SD card.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)selectAllFiles</Declaration>
+			
+			
+			<Anchor>//api/name/selectAllFiles</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/unselectAllFiles</TokenIdentifier>
+			<Abstract type="html">Unselects all the files on the SD card.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)unselectAllFiles</Declaration>
+			
+			
+			<Anchor>//api/name/unselectAllFiles</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/selectAllFilesInPage</TokenIdentifier>
+			<Abstract type="html">Selects all the file(s) on the current page.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)selectAllFilesInPage</Declaration>
+			
+			
+			<Anchor>//api/name/selectAllFilesInPage</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/unselectAllFilesInPage</TokenIdentifier>
+			<Abstract type="html">Unselects all the file(s) on the current page.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)unselectAllFilesInPage</Declaration>
+			
+			
+			<Anchor>//api/name/unselectAllFilesInPage</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/deleteAllSelectedFiles</TokenIdentifier>
+			<Abstract type="html">Deletes all selected files from the SD card.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteAllSelectedFiles</Declaration>
+			
+			
+			<Anchor>//api/name/deleteAllSelectedFiles</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/downloadSelectedFilesWithPreparation:process:fileCompletion:overallCompletion:</TokenIdentifier>
+			<Abstract type="html">Downloads the selected files. When this method is called. The dataBlock gets called continuously until all the data is downloaded.
+The prepare and completion blocks are called once for each file being downloaded. In the prepareBlock, you can get the forthcoming file&apos;s info, like file name, file size, etc.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)downloadSelectedFilesWithPreparation:(DJIFileDownloadPreparingBlock)prepareBlock process:(DJIFileDownloadingBlock)dataBlock fileCompletion:(DJIFileDownloadCompletionBlock)fileCompletionBlock overallCompletion:(DJICompletionBlock)overallCompletionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>prepareBlock</Name>
+					<Abstract type="html">Callback to prepare each file for download.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataBlock</Name>
+					<Abstract type="html">Callback while a file is downloading. The dataBlock can be called multiple times for a file.</Abstract>
+				</Parameter><Parameter>
+					<Name>fileCompletionBlock</Name>
+					<Abstract type="html">Callback after each file have been downloaded.</Abstract>
+				</Parameter><Parameter>
+					<Name>finishBlock</Name>
+					<Abstract type="html">Callback after the downloading is finished.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadSelectedFilesWithPreparation:process:fileCompletion:overallCompletion:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/enterMultiplePreviewMode</TokenIdentifier>
+			<Abstract type="html">Enables the user to preview multiple files when the camera is in Playback mode.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)enterMultiplePreviewMode</Declaration>
+			
+			
+			<Anchor>//api/name/enterMultiplePreviewMode</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/goToNextMultiplePreviewPage</TokenIdentifier>
+			<Abstract type="html">Goes to the next page when there are multiple pages.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)goToNextMultiplePreviewPage</Declaration>
+			
+			
+			<Anchor>//api/name/goToNextMultiplePreviewPage</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/goToPreviousMultiplePreviewPage</TokenIdentifier>
+			<Abstract type="html">Goes back to the previous page when there are multiple pages.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)goToPreviousMultiplePreviewPage</Declaration>
+			
+			
+			<Anchor>//api/name/goToPreviousMultiplePreviewPage</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/enterSinglePreviewModeWithIndex:</TokenIdentifier>
+			<Abstract type="html">Enters single file preview mode for a file at the specified index. In order for this method to be called,
+the camera work mode should be DJICameraModePlayback.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)enterSinglePreviewModeWithIndex:(uint8_t)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">File to be previewed at the specified index.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/enterSinglePreviewModeWithIndex:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/goToNextSinglePreviewPage</TokenIdentifier>
+			<Abstract type="html">Goes to the next page.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)goToNextSinglePreviewPage</Declaration>
+			
+			
+			<Anchor>//api/name/goToNextSinglePreviewPage</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/goToPreviousSinglePreviewPage</TokenIdentifier>
+			<Abstract type="html">Goes back to the previous page.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)goToPreviousSinglePreviewPage</Declaration>
+			
+			
+			<Anchor>//api/name/goToPreviousSinglePreviewPage</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/deleteCurrentPreviewFile</TokenIdentifier>
+			<Abstract type="html">Deletes the current file being previewed.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteCurrentPreviewFile</Declaration>
+			
+			
+			<Anchor>//api/name/deleteCurrentPreviewFile</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/startVideoPlayback</TokenIdentifier>
+			<Abstract type="html">Starts video playback. The selected file must be a video file.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)startVideoPlayback</Declaration>
+			
+			
+			<Anchor>//api/name/startVideoPlayback</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/pauseVideoPlayback</TokenIdentifier>
+			<Abstract type="html">Pause a video during playback.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)pauseVideoPlayback</Declaration>
+			
+			
+			<Anchor>//api/name/pauseVideoPlayback</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/stopVideoPlayback</TokenIdentifier>
+			<Abstract type="html">Stops a video during playback</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)stopVideoPlayback</Declaration>
+			
+			
+			<Anchor>//api/name/stopVideoPlayback</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPlaybackManager/setVideoPlaybackFromLocation:</TokenIdentifier>
+			<Abstract type="html">Plays a video from the specified location.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)setVideoPlaybackFromLocation:(uint8_t)location</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>location</Name>
+					<Abstract type="html">Location from which to play the video must be in the range of [0, 100]. This
+value represents at what percent of the entire video it should start playing.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setVideoPlaybackFromLocation:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

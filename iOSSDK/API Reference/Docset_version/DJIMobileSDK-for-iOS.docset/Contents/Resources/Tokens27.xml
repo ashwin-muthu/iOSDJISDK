@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIGimbalConstraints.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIGimbalConstraints</TokenIdentifier>
+			<Abstract type="html">This class provides the constraints of the gimbal. These values
+are determined and change based on the aircraft and the type of
+gimbal on the aircraft.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/setIsPitchAdjustable:</TokenIdentifier>
+			<Abstract type="html">Yes if pitch can be controlled.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isPitchAdjustable</Declaration>
+			
+			
+			<Anchor>//api/name/isPitchAdjustable</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/isPitchAdjustable</TokenIdentifier>
+			<Abstract type="html">Yes if pitch can be controlled.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isPitchAdjustable</Declaration>
+			
+			
+			<Anchor>//api/name/isPitchAdjustable</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConstraints/isPitchAdjustable</TokenIdentifier>
+			<Abstract type="html">Yes if pitch can be controlled.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isPitchAdjustable</Declaration>
+			
+			
+			<Anchor>//api/name/isPitchAdjustable</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/setIsRollAdjustable:</TokenIdentifier>
+			<Abstract type="html">Yes if roll can be controlled.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isRollAdjustable</Declaration>
+			
+			
+			<Anchor>//api/name/isRollAdjustable</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/isRollAdjustable</TokenIdentifier>
+			<Abstract type="html">Yes if roll can be controlled.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isRollAdjustable</Declaration>
+			
+			
+			<Anchor>//api/name/isRollAdjustable</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConstraints/isRollAdjustable</TokenIdentifier>
+			<Abstract type="html">Yes if roll can be controlled.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isRollAdjustable</Declaration>
+			
+			
+			<Anchor>//api/name/isRollAdjustable</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/setIsYawAdjustable:</TokenIdentifier>
+			<Abstract type="html">Yes if yaw can be controlled.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isYawAdjustable</Declaration>
+			
+			
+			<Anchor>//api/name/isYawAdjustable</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/isYawAdjustable</TokenIdentifier>
+			<Abstract type="html">Yes if yaw can be controlled.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isYawAdjustable</Declaration>
+			
+			
+			<Anchor>//api/name/isYawAdjustable</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConstraints/isYawAdjustable</TokenIdentifier>
+			<Abstract type="html">Yes if yaw can be controlled.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isYawAdjustable</Declaration>
+			
+			
+			<Anchor>//api/name/isYawAdjustable</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/setPitchStopMax:</TokenIdentifier>
+			<Abstract type="html">Returns the maximum angle the pitch can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float pitchStopMax</Declaration>
+			
+			
+			<Anchor>//api/name/pitchStopMax</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/pitchStopMax</TokenIdentifier>
+			<Abstract type="html">Returns the maximum angle the pitch can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float pitchStopMax</Declaration>
+			
+			
+			<Anchor>//api/name/pitchStopMax</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConstraints/pitchStopMax</TokenIdentifier>
+			<Abstract type="html">Returns the maximum angle the pitch can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float pitchStopMax</Declaration>
+			
+			
+			<Anchor>//api/name/pitchStopMax</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/setPitchStopMin:</TokenIdentifier>
+			<Abstract type="html">Returns the minimum angle the pitch can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float pitchStopMin</Declaration>
+			
+			
+			<Anchor>//api/name/pitchStopMin</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/pitchStopMin</TokenIdentifier>
+			<Abstract type="html">Returns the minimum angle the pitch can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float pitchStopMin</Declaration>
+			
+			
+			<Anchor>//api/name/pitchStopMin</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConstraints/pitchStopMin</TokenIdentifier>
+			<Abstract type="html">Returns the minimum angle the pitch can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float pitchStopMin</Declaration>
+			
+			
+			<Anchor>//api/name/pitchStopMin</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/setRollStopMax:</TokenIdentifier>
+			<Abstract type="html">Returns the maximum angle the roll can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float rollStopMax</Declaration>
+			
+			
+			<Anchor>//api/name/rollStopMax</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/rollStopMax</TokenIdentifier>
+			<Abstract type="html">Returns the maximum angle the roll can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float rollStopMax</Declaration>
+			
+			
+			<Anchor>//api/name/rollStopMax</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConstraints/rollStopMax</TokenIdentifier>
+			<Abstract type="html">Returns the maximum angle the roll can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float rollStopMax</Declaration>
+			
+			
+			<Anchor>//api/name/rollStopMax</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/setRollStopMin:</TokenIdentifier>
+			<Abstract type="html">Returns the minimum angle the roll can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float rollStopMin</Declaration>
+			
+			
+			<Anchor>//api/name/rollStopMin</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/rollStopMin</TokenIdentifier>
+			<Abstract type="html">Returns the minimum angle the roll can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float rollStopMin</Declaration>
+			
+			
+			<Anchor>//api/name/rollStopMin</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConstraints/rollStopMin</TokenIdentifier>
+			<Abstract type="html">Returns the minimum angle the roll can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float rollStopMin</Declaration>
+			
+			
+			<Anchor>//api/name/rollStopMin</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/setYawStopMax:</TokenIdentifier>
+			<Abstract type="html">Returns the maximum angle the yaw can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float yawStopMax</Declaration>
+			
+			
+			<Anchor>//api/name/yawStopMax</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/yawStopMax</TokenIdentifier>
+			<Abstract type="html">Returns the maximum angle the yaw can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float yawStopMax</Declaration>
+			
+			
+			<Anchor>//api/name/yawStopMax</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConstraints/yawStopMax</TokenIdentifier>
+			<Abstract type="html">Returns the maximum angle the yaw can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float yawStopMax</Declaration>
+			
+			
+			<Anchor>//api/name/yawStopMax</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/setYawStopMin:</TokenIdentifier>
+			<Abstract type="html">Returns the minimum angle the yaw can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float yawStopMin</Declaration>
+			
+			
+			<Anchor>//api/name/yawStopMin</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIGimbalConstraints/yawStopMin</TokenIdentifier>
+			<Abstract type="html">Returns the minimum angle the yaw can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float yawStopMin</Declaration>
+			
+			
+			<Anchor>//api/name/yawStopMin</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIGimbalConstraints/yawStopMin</TokenIdentifier>
+			<Abstract type="html">Returns the minimum angle the yaw can be set to.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float yawStopMin</Declaration>
+			
+			
+			<Anchor>//api/name/yawStopMin</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

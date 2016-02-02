@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraContrast.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraContrast</TokenIdentifier>
+			<Abstract type="html">Camera contrast. The default value is CameraContrastStandard.</Abstract>
+			<DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+			
+			<NodeRef refid="80"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraContrastStandard</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s contrast is set to standard.
+     </Abstract>
+            <Declaration>DJICameraContrastStandard</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="80"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraContrastHard</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s contrast is set to hard.
+     </Abstract>
+            <Declaration>DJICameraContrastHard</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="80"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraContrastSoft</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s contrast is set to soft.
+     </Abstract>
+            <Declaration>DJICameraContrastSoft</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="80"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraContrastUnknown</TokenIdentifier>
+            <Abstract type="html">The camera&apos;s contrast is unknown.
+     </Abstract>
+            <Declaration>DJICameraContrastUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="80"/>
+        </Token>
+        
+	</File>
+</Tokens>

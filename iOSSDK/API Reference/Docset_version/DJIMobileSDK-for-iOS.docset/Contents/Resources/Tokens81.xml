@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraCustomSettings.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraCustomSettings</TokenIdentifier>
+			<Abstract type="html">Camera user settings. A user can save or load camera settings to or from the specified user.</Abstract>
+			<DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+			
+			<NodeRef refid="81"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraCustomSettingsDefault</TokenIdentifier>
+            <Abstract type="html">Default user.
+     </Abstract>
+            <Declaration>DJICameraCustomSettingsDefault</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraCustomSettingsProfile1</TokenIdentifier>
+            <Abstract type="html">Settings for user 1.
+     </Abstract>
+            <Declaration>DJICameraCustomSettingsProfile1</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraCustomSettingsProfile2</TokenIdentifier>
+            <Abstract type="html">Settings for user 2.
+     </Abstract>
+            <Declaration>DJICameraCustomSettingsProfile2</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraCustomSettingsProfile3</TokenIdentifier>
+            <Abstract type="html">Settings for user 3.
+     </Abstract>
+            <Declaration>DJICameraCustomSettingsProfile3</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraCustomSettingsProfile4</TokenIdentifier>
+            <Abstract type="html">Settings for user 4.
+     </Abstract>
+            <Declaration>DJICameraCustomSettingsProfile4</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraCustomSettingsUnknown</TokenIdentifier>
+            <Abstract type="html">The user is unknown.
+     </Abstract>
+            <Declaration>DJICameraCustomSettingsUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+	</File>
+</Tokens>

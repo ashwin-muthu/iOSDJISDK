@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIRemoteLogger.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIRemoteLogger</TokenIdentifier>
+			<Abstract type="html">This class provides class methods for you to get information of current log level. It also contains methods to configure the logger.</Abstract>
+			<DeclaredIn>DJIRemoteLogger.h</DeclaredIn>
+            
+			
+			<NodeRef refid="50"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/DJIRemoteLogger/currentLogLevel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DJIRemoteLogger.h</DeclaredIn>
+			
+			<Declaration>+ (DJILogLevel)currentLogLevel</Declaration>
+			
+			
+			<Anchor>//api/name/currentLogLevel</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/DJIRemoteLogger/setCurrentLogLevel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DJIRemoteLogger.h</DeclaredIn>
+			
+			<Declaration>+ (void)setCurrentLogLevel:(DJILogLevel)level</Declaration>
+			
+			
+			<Anchor>//api/name/setCurrentLogLevel:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/DJIRemoteLogger/configureLoggerWithDeviceId:URLString:showLogInConsole:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DJIRemoteLogger.h</DeclaredIn>
+			
+			<Declaration>+ (void)configureLoggerWithDeviceId:(NSString *)deviceID URLString:(NSString *)urlString showLogInConsole:(BOOL)showLogInConsole</Declaration>
+			
+			
+			<Anchor>//api/name/configureLoggerWithDeviceId:URLString:showLogInConsole:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/DJIRemoteLogger/resetLogger</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DJIRemoteLogger.h</DeclaredIn>
+			
+			<Declaration>+ (void)resetLogger</Declaration>
+			
+			
+			<Anchor>//api/name/resetLogger</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/DJIRemoteLogger/logWithLevel:file:function:line:format:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DJIRemoteLogger.h</DeclaredIn>
+			
+			<Declaration>+ (void)logWithLevel:(DJILogLevel)level file:(const char *)file function:(const char *)function line:(NSUInteger)line format:(NSString *)format, ...</Declaration>
+			
+			
+			<Anchor>//api/name/logWithLevel:file:function:line:format:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/DJIRemoteLogger/logWithLevel:file:function:line:string:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DJIRemoteLogger.h</DeclaredIn>
+			
+			<Declaration>+ (void)logWithLevel:(DJILogLevel)level file:(const char *)file function:(const char *)function line:(NSUInteger)line string:(NSString *)string</Declaration>
+			
+			
+			<Anchor>//api/name/logWithLevel:file:function:line:string:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

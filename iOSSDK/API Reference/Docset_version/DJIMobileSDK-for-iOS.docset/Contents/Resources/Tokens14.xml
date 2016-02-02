@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJICameraSystemState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJICameraSystemState</TokenIdentifier>
+			<Abstract type="html">This class provides general information and current status of the camera.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/setIsShootingSinglePhoto:</TokenIdentifier>
+			<Abstract type="html">YES when camera is performing any photo capture in any shootPhotoMode. Between photo capture in interval and time lapse mode, this property will be NO. The camera is shooting single photo.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isShootingSinglePhoto</Declaration>
+			
+			
+			<Anchor>//api/name/isShootingSinglePhoto</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/isShootingSinglePhoto</TokenIdentifier>
+			<Abstract type="html">YES when camera is performing any photo capture in any shootPhotoMode. Between photo capture in interval and time lapse mode, this property will be NO. The camera is shooting single photo.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isShootingSinglePhoto</Declaration>
+			
+			
+			<Anchor>//api/name/isShootingSinglePhoto</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICameraSystemState/isShootingSinglePhoto</TokenIdentifier>
+			<Abstract type="html">YES when camera is performing any photo capture in any shootPhotoMode. Between photo capture in interval and time lapse mode, this property will be NO. The camera is shooting single photo.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isShootingSinglePhoto</Declaration>
+			
+			
+			<Anchor>//api/name/isShootingSinglePhoto</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/setIsShootingSinglePhotoInRAWFormat:</TokenIdentifier>
+			<Abstract type="html">YES when the camera is performing a photo capture in RAW or RAW+JPEG format. Between photo capture in interval and time lapse mode, this property will
+be NO. If saving the photo in JPEG only, this property will always be NO.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isShootingSinglePhotoInRAWFormat</Declaration>
+			
+			
+			<Anchor>//api/name/isShootingSinglePhotoInRAWFormat</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/isShootingSinglePhotoInRAWFormat</TokenIdentifier>
+			<Abstract type="html">YES when the camera is performing a photo capture in RAW or RAW+JPEG format. Between photo capture in interval and time lapse mode, this property will
+be NO. If saving the photo in JPEG only, this property will always be NO.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isShootingSinglePhotoInRAWFormat</Declaration>
+			
+			
+			<Anchor>//api/name/isShootingSinglePhotoInRAWFormat</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICameraSystemState/isShootingSinglePhotoInRAWFormat</TokenIdentifier>
+			<Abstract type="html">YES when the camera is performing a photo capture in RAW or RAW+JPEG format. Between photo capture in interval and time lapse mode, this property will
+be NO. If saving the photo in JPEG only, this property will always be NO.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isShootingSinglePhotoInRAWFormat</Declaration>
+			
+			
+			<Anchor>//api/name/isShootingSinglePhotoInRAWFormat</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/setIsShootingIntervalPhoto:</TokenIdentifier>
+			<Abstract type="html">YES when camera is performing an interval capture. Will be yes after startShootPhoto is called, and NO after stopShootPhoto is called.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isShootingIntervalPhoto</Declaration>
+			
+			
+			<Anchor>//api/name/isShootingIntervalPhoto</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/isShootingIntervalPhoto</TokenIdentifier>
+			<Abstract type="html">YES when camera is performing an interval capture. Will be yes after startShootPhoto is called, and NO after stopShootPhoto is called.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isShootingIntervalPhoto</Declaration>
+			
+			
+			<Anchor>//api/name/isShootingIntervalPhoto</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICameraSystemState/isShootingIntervalPhoto</TokenIdentifier>
+			<Abstract type="html">YES when camera is performing an interval capture. Will be yes after startShootPhoto is called, and NO after stopShootPhoto is called.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isShootingIntervalPhoto</Declaration>
+			
+			
+			<Anchor>//api/name/isShootingIntervalPhoto</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/setIsShootingBurstPhoto:</TokenIdentifier>
+			<Abstract type="html">YES when camera is performing a burst capture. Will be yes after startShootPhoto is called, and NO after burst is complete.
+The camera is shooting burst photos.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isShootingBurstPhoto</Declaration>
+			
+			
+			<Anchor>//api/name/isShootingBurstPhoto</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/isShootingBurstPhoto</TokenIdentifier>
+			<Abstract type="html">YES when camera is performing a burst capture. Will be yes after startShootPhoto is called, and NO after burst is complete.
+The camera is shooting burst photos.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isShootingBurstPhoto</Declaration>
+			
+			
+			<Anchor>//api/name/isShootingBurstPhoto</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICameraSystemState/isShootingBurstPhoto</TokenIdentifier>
+			<Abstract type="html">YES when camera is performing a burst capture. Will be yes after startShootPhoto is called, and NO after burst is complete.
+The camera is shooting burst photos.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isShootingBurstPhoto</Declaration>
+			
+			
+			<Anchor>//api/name/isShootingBurstPhoto</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/setIsRecording:</TokenIdentifier>
+			<Abstract type="html">YES if camera is recording video</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isRecording</Declaration>
+			
+			
+			<Anchor>//api/name/isRecording</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/isRecording</TokenIdentifier>
+			<Abstract type="html">YES if camera is recording video</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isRecording</Declaration>
+			
+			
+			<Anchor>//api/name/isRecording</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICameraSystemState/isRecording</TokenIdentifier>
+			<Abstract type="html">YES if camera is recording video</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isRecording</Declaration>
+			
+			
+			<Anchor>//api/name/isRecording</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/setIsStoringPhoto:</TokenIdentifier>
+			<Abstract type="html">YES if camera is storing a photo.
+When isStoringPhoto is YES, user cannot change the camera mode or start to shoot another photo.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isStoringPhoto</Declaration>
+			
+			
+			<Anchor>//api/name/isStoringPhoto</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/isStoringPhoto</TokenIdentifier>
+			<Abstract type="html">YES if camera is storing a photo.
+When isStoringPhoto is YES, user cannot change the camera mode or start to shoot another photo.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isStoringPhoto</Declaration>
+			
+			
+			<Anchor>//api/name/isStoringPhoto</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICameraSystemState/isStoringPhoto</TokenIdentifier>
+			<Abstract type="html">YES if camera is storing a photo.
+When isStoringPhoto is YES, user cannot change the camera mode or start to shoot another photo.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isStoringPhoto</Declaration>
+			
+			
+			<Anchor>//api/name/isStoringPhoto</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/setIsCameraOverHeated:</TokenIdentifier>
+			<Abstract type="html">YES if camera is too hot.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isCameraOverHeated</Declaration>
+			
+			
+			<Anchor>//api/name/isCameraOverHeated</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/isCameraOverHeated</TokenIdentifier>
+			<Abstract type="html">YES if camera is too hot.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isCameraOverHeated</Declaration>
+			
+			
+			<Anchor>//api/name/isCameraOverHeated</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICameraSystemState/isCameraOverHeated</TokenIdentifier>
+			<Abstract type="html">YES if camera is too hot.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isCameraOverHeated</Declaration>
+			
+			
+			<Anchor>//api/name/isCameraOverHeated</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/setIsCameraError:</TokenIdentifier>
+			<Abstract type="html">The camera&apos;s sensor error.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isCameraError</Declaration>
+			
+			
+			<Anchor>//api/name/isCameraError</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/isCameraError</TokenIdentifier>
+			<Abstract type="html">The camera&apos;s sensor error.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isCameraError</Declaration>
+			
+			
+			<Anchor>//api/name/isCameraError</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICameraSystemState/isCameraError</TokenIdentifier>
+			<Abstract type="html">The camera&apos;s sensor error.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isCameraError</Declaration>
+			
+			
+			<Anchor>//api/name/isCameraError</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/setIsUSBMode:</TokenIdentifier>
+			<Abstract type="html">Indicate whether the camera is in usb mode.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isUSBMode</Declaration>
+			
+			
+			<Anchor>//api/name/isUSBMode</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/isUSBMode</TokenIdentifier>
+			<Abstract type="html">Indicate whether the camera is in usb mode.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isUSBMode</Declaration>
+			
+			
+			<Anchor>//api/name/isUSBMode</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICameraSystemState/isUSBMode</TokenIdentifier>
+			<Abstract type="html">Indicate whether the camera is in usb mode.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isUSBMode</Declaration>
+			
+			
+			<Anchor>//api/name/isUSBMode</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/setMode:</TokenIdentifier>
+			<Abstract type="html">Current mode of the camera.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJICameraMode mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/mode</TokenIdentifier>
+			<Abstract type="html">Current mode of the camera.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJICameraMode mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICameraSystemState/mode</TokenIdentifier>
+			<Abstract type="html">Current mode of the camera.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJICameraMode mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/setCurrentVideoRecordingTimeInSeconds:</TokenIdentifier>
+			<Abstract type="html">Time of current video being recorded by camera in seconds.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int currentVideoRecordingTimeInSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/currentVideoRecordingTimeInSeconds</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICameraSystemState/currentVideoRecordingTimeInSeconds</TokenIdentifier>
+			<Abstract type="html">Time of current video being recorded by camera in seconds.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int currentVideoRecordingTimeInSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/currentVideoRecordingTimeInSeconds</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICameraSystemState/currentVideoRecordingTimeInSeconds</TokenIdentifier>
+			<Abstract type="html">Time of current video being recorded by camera in seconds.</Abstract>
+			<DeclaredIn>DJICameraSystemState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int currentVideoRecordingTimeInSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/currentVideoRecordingTimeInSeconds</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraPhotoTimeLapseFileFormat.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraPhotoTimeLapseFileFormat</TokenIdentifier>
+			<Abstract type="html">File format for camera when it is in time-lapse mode. The
+default file format is video. If video+JPEG is selected the minimum interval will be 2 seconds.</Abstract>
+			<DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+			
+			<NodeRef refid="95"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPhotoTimeLapseFileFormatVideo</TokenIdentifier>
+            <Abstract type="html">The camera in time-lapse mode will generate video
+     </Abstract>
+            <Declaration>DJICameraPhotoTimeLapseFileFormatVideo</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="95"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPhotoTimeLapseFileFormatVideoAndJPEG</TokenIdentifier>
+            <Abstract type="html">The camera in time-lapse mode will generate video and JPEG
+     </Abstract>
+            <Declaration>DJICameraPhotoTimeLapseFileFormatVideoAndJPEG</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="95"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPhotoTimeLapseFileFormatUnknown</TokenIdentifier>
+            <Abstract type="html">The file format is unknown
+     </Abstract>
+            <Declaration>DJICameraPhotoTimeLapseFileFormatUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="95"/>
+        </Token>
+        
+	</File>
+</Tokens>

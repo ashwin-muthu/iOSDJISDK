@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/DJIFlightControllerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/DJIFlightControllerDelegate</TokenIdentifier>
+			<Abstract type="html">This protocol provides delegate methods to update flight controller&apos;s current state.</Abstract>
+			<DeclaredIn>DJIFlightController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="67"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJIFlightControllerDelegate/flightController:didUpdateSystemState:</TokenIdentifier>
+			<Abstract type="html">Callback function that updates the flight controller&apos;s current state data. This method gets
+called 10 times per second after startUpdatingFlightControllerCurrentState is called.</Abstract>
+			<DeclaredIn>DJIFlightController.h</DeclaredIn>
+			
+			<Declaration>- (void)flightController:(DJIFlightController *)fc didUpdateSystemState:(DJIFlightControllerCurrentState *)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fc</Name>
+					<Abstract type="html">Instance of the flight controller for which the data will be updated.</Abstract>
+				</Parameter><Parameter>
+					<Name>state</Name>
+					<Abstract type="html">Current state of the flight controller.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/flightController:didUpdateSystemState:</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJIFlightControllerDelegate/flightController:didReceiveDataFromExternalDevice:</TokenIdentifier>
+			<Abstract type="html">Callback function that updates the data received from an external device (e.g. the onboard device).
+It is only supported for the Matrice 100.</Abstract>
+			<DeclaredIn>DJIFlightController.h</DeclaredIn>
+			
+			<Declaration>- (void)flightController:(DJIFlightController *)fc didReceiveDataFromExternalDevice:(NSData *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fc</Name>
+					<Abstract type="html">Instance of the flight controller for which the data will be updated.</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">Data received from an external device. The size of the data will not be larger
+than 100 bytes.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/flightController:didReceiveDataFromExternalDevice:</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJILBAirLinkDataRate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJILBAirLinkDataRate</TokenIdentifier>
+			<Abstract type="html">Wireless downlink data rate. Lower rates are used for longer ranges, but will have lower video quality.</Abstract>
+			<DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+			
+			<NodeRef refid="127"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkDataRate4Mbps</TokenIdentifier>
+            <Abstract type="html">4 Mbps (Potential range up to 3 km)
+     </Abstract>
+            <Declaration>DJILBAirLinkDataRate4Mbps</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="127"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkDataRate6Mbps</TokenIdentifier>
+            <Abstract type="html">6 Mbps (Potential range up to 2 km)
+     </Abstract>
+            <Declaration>DJILBAirLinkDataRate6Mbps</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="127"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkDataRate8Mbps</TokenIdentifier>
+            <Abstract type="html">8 Mbps (Potential range up to 1.5 km)
+     </Abstract>
+            <Declaration>DJILBAirLinkDataRate8Mbps</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="127"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkDataRate10Mbps</TokenIdentifier>
+            <Abstract type="html">10 Mbps (Potential range up to 0.7 km)
+     </Abstract>
+            <Declaration>DJILBAirLinkDataRate10Mbps</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="127"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkDataRateUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown
+     </Abstract>
+            <Declaration>DJILBAirLinkDataRateUnknown</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="127"/>
+        </Token>
+        
+	</File>
+</Tokens>

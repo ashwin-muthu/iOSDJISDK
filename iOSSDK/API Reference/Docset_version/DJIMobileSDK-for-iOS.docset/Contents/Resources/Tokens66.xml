@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/DJIComponentConnectivityDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/DJIComponentConnectivityDelegate</TokenIdentifier>
+			<Abstract type="html">The DJIComponentConnectivityDelegate defines methods that are called by DJIBaseComponent object
+in response to the connectivity change.</Abstract>
+			<DeclaredIn>DJIBaseComponent.h</DeclaredIn>
+            
+			
+			<NodeRef refid="66"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJIComponentConnectivityDelegate/component:connectivityChanged:</TokenIdentifier>
+			<Abstract type="html">Called when connectivity status changed for the component.</Abstract>
+			<DeclaredIn>DJIBaseComponent.h</DeclaredIn>
+			
+			<Declaration>- (void)component:(DJIBaseComponent *)component connectivityChanged:(BOOL)isConnected</Declaration>
+			
+			
+			<Anchor>//api/name/component:connectivityChanged:</Anchor>
+            <NodeRef refid="66"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

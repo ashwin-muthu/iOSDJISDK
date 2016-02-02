@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIBaseProduct.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIBaseProduct</TokenIdentifier>
+			<Abstract type="html">Abstract class for all DJI Products</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIBaseProduct/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Use this delegate to get notified on component changes and connectivity status changes.</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;DJIBaseProductDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIBaseProduct/delegate</TokenIdentifier>
+			<Abstract type="html">Use this delegate to get notified on component changes and connectivity status changes.</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;DJIBaseProductDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIBaseProduct/delegate</TokenIdentifier>
+			<Abstract type="html">Use this delegate to get notified on component changes and connectivity status changes.</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;DJIBaseProductDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIBaseProduct/setConnected:</TokenIdentifier>
+			<Abstract type="html">Connectivity status. In case of aircraft, if the aircraft is out of range or turned off, then the connectivity status changes to NOT connected.</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic, readonly, getter=isConnected) BOOL connected</Declaration>
+			
+			
+			<Anchor>//api/name/connected</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIBaseProduct/isConnected</TokenIdentifier>
+			<Abstract type="html">Connectivity status. In case of aircraft, if the aircraft is out of range or turned off, then the connectivity status changes to NOT connected.</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic, readonly, getter=isConnected) BOOL connected</Declaration>
+			
+			
+			<Anchor>//api/name/connected</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIBaseProduct/connected</TokenIdentifier>
+			<Abstract type="html">Connectivity status. In case of aircraft, if the aircraft is out of range or turned off, then the connectivity status changes to NOT connected.</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic, readonly, getter=isConnected) BOOL connected</Declaration>
+			
+			
+			<Anchor>//api/name/connected</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIBaseProduct/setComponents:</TokenIdentifier>
+			<Abstract type="html">Contains a dictionary of all the available components</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSDictionary&lt;NSString*NSArray&lt;DJIBaseComponent*&gt; *&gt; *components</Declaration>
+			
+			
+			<Anchor>//api/name/components</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIBaseProduct/components</TokenIdentifier>
+			<Abstract type="html">Contains a dictionary of all the available components</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSDictionary&lt;NSString*NSArray&lt;DJIBaseComponent*&gt; *&gt; *components</Declaration>
+			
+			
+			<Anchor>//api/name/components</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIBaseProduct/components</TokenIdentifier>
+			<Abstract type="html">Contains a dictionary of all the available components</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSDictionary&lt;NSString*NSArray&lt;DJIBaseComponent*&gt; *&gt; *components</Declaration>
+			
+			
+			<Anchor>//api/name/components</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIBaseProduct/getFirmwarePackageVersionWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Get product&apos;s firmware package version</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>- (void)getFirmwarePackageVersionWithCompletion:(void ( ^ ) ( NSString *_Nullable version , NSError *_Nullable error ))block</Declaration>
+			
+			
+			<Anchor>//api/name/getFirmwarePackageVersionWithCompletion:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIBaseProduct/setModel:</TokenIdentifier>
+			<Abstract type="html">Returns the model of the product.</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *model</Declaration>
+			
+			
+			<Anchor>//api/name/model</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIBaseProduct/model</TokenIdentifier>
+			<Abstract type="html">Returns the model of the product.</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *model</Declaration>
+			
+			
+			<Anchor>//api/name/model</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIBaseProduct/model</TokenIdentifier>
+			<Abstract type="html">Returns the model of the product.</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *model</Declaration>
+			
+			
+			<Anchor>//api/name/model</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

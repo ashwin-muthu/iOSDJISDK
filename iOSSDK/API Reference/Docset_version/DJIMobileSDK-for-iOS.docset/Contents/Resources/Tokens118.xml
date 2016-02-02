@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJIGimbalSmoothTrackAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJIGimbalSmoothTrackAxis</TokenIdentifier>
+			<Abstract type="html">Gimbal&apos;s SmoothTrack axis. This is only supported by the OSMO gimbal when using a Custom configuration in DJIGimbalUserConfigType.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+            
+			
+			<NodeRef refid="118"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIGimbalSmoothTrackAxisYaw</TokenIdentifier>
+            <Abstract type="html">The gimbal&apos;s SmoothTrack axis is yaw (also called pan for users).
+     </Abstract>
+            <Declaration>DJIGimbalSmoothTrackAxisYaw</Declaration>
+            
+            <DeclaredIn>DJIGimbal.h</DeclaredIn>
+            
+            <NodeRef refid="118"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIGimbalSmoothTrackAxisPitch</TokenIdentifier>
+            <Abstract type="html">The gimbal&apos;s SmoothTrack axis is pitch (also called tilt for users).
+     </Abstract>
+            <Declaration>DJIGimbalSmoothTrackAxisPitch</Declaration>
+            
+            <DeclaredIn>DJIGimbal.h</DeclaredIn>
+            
+            <NodeRef refid="118"/>
+        </Token>
+        
+	</File>
+</Tokens>

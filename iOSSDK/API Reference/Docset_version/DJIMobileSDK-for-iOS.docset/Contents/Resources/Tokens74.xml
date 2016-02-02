@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/DJISDKDebugServerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/DJISDKDebugServerDelegate</TokenIdentifier>
+			<Abstract type="html">This protocol provides delegate methods to receive the updated connection status between the debug server, remote controller and debug client.</Abstract>
+			<DeclaredIn>DJISDKManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="74"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJISDKDebugServerDelegate/sdkDebugServerWithRCConnectionStatus:andDebugClientConnectionStatus:</TokenIdentifier>
+			<Abstract type="html">Callback delegate method after the Debug server is started.</Abstract>
+			<DeclaredIn>DJISDKManager.h</DeclaredIn>
+			
+			<Declaration>- (void)sdkDebugServerWithRCConnectionStatus:(BOOL)isRCConnected andDebugClientConnectionStatus:(BOOL)isWifiConnected</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>isRCConnected</Name>
+					<Abstract type="html">is true if the RC is connected with the Debug server.</Abstract>
+				</Parameter><Parameter>
+					<Name>isWifiConnected</Name>
+					<Abstract type="html">is true if the debug client is connected with the Debug server based on WiFi.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sdkDebugServerWithRCConnectionStatus:andDebugClientConnectionStatus:</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

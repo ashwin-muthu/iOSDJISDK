@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJISignalInformation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJISignalInformation</TokenIdentifier>
+			<Abstract type="html">This class contains signal status of a channel.</Abstract>
+			<DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+			
+			<NodeRef refid="53"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJISignalInformation/setPercent:</TokenIdentifier>
+			<Abstract type="html">Signal quality in percent [0, 100].</Abstract>
+			<DeclaredIn>DJILBAirLink.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int percent</Declaration>
+			
+			
+			<Anchor>//api/name/percent</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJISignalInformation/percent</TokenIdentifier>
+			<Abstract type="html">Signal quality in percent [0, 100].</Abstract>
+			<DeclaredIn>DJILBAirLink.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int percent</Declaration>
+			
+			
+			<Anchor>//api/name/percent</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJISignalInformation/percent</TokenIdentifier>
+			<Abstract type="html">Signal quality in percent [0, 100].</Abstract>
+			<DeclaredIn>DJILBAirLink.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int percent</Declaration>
+			
+			
+			<Anchor>//api/name/percent</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJISignalInformation/setPower:</TokenIdentifier>
+			<Abstract type="html">Signal strength in dBm.</Abstract>
+			<DeclaredIn>DJILBAirLink.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int power</Declaration>
+			
+			
+			<Anchor>//api/name/power</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJISignalInformation/power</TokenIdentifier>
+			<Abstract type="html">Signal strength in dBm.</Abstract>
+			<DeclaredIn>DJILBAirLink.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int power</Declaration>
+			
+			
+			<Anchor>//api/name/power</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJISignalInformation/power</TokenIdentifier>
+			<Abstract type="html">Signal strength in dBm.</Abstract>
+			<DeclaredIn>DJILBAirLink.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int power</Declaration>
+			
+			
+			<Anchor>//api/name/power</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

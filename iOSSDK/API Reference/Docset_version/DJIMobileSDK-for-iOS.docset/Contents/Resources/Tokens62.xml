@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/DJIBaseProductDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/DJIBaseProductDelegate</TokenIdentifier>
+			<Abstract type="html">This protocol provides delegate methods to get notified on component and product connectivity changes.</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+            
+			
+			<NodeRef refid="62"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJIBaseProductDelegate/componentWithKey:changedFrom:to:</TokenIdentifier>
+			<Abstract type="html">Callback delegate method when a component object changed</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>- (void)componentWithKey:(NSString *)key changedFrom:(DJIBaseComponent *_Nullable)oldComponent to:(DJIBaseComponent *_Nullable)newComponent</Declaration>
+			
+			
+			<Anchor>//api/name/componentWithKey:changedFrom:to:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJIBaseProductDelegate/product:connectivityChanged:</TokenIdentifier>
+			<Abstract type="html">Called when connectivity status changed for the base product.</Abstract>
+			<DeclaredIn>DJIBaseProduct.h</DeclaredIn>
+			
+			<Declaration>- (void)product:(DJIBaseProduct *)product connectivityChanged:(BOOL)isConnected</Declaration>
+			
+			
+			<Anchor>//api/name/product:connectivityChanged:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

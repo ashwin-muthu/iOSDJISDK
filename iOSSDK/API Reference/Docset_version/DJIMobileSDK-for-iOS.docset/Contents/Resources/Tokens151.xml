@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJISDKCameraError.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJISDKCameraError</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSError+DJISDK.h</DeclaredIn>
+            
+			
+			<NodeRef refid="151"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJISDKCameraErrorFirmwareDoesNotSupportCommand</TokenIdentifier>
+            <Abstract type="html">Not supported command or command not support in this firmware.
+     </Abstract>
+            <Declaration>DJISDKCameraErrorFirmwareDoesNotSupportCommand</Declaration>
+            
+            <DeclaredIn>NSError+DJISDK.h</DeclaredIn>
+            
+            <NodeRef refid="151"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJISDKCameraErrorMemoryAllocationFailed</TokenIdentifier>
+            <Abstract type="html">Camera memory allocation failed error.
+     </Abstract>
+            <Declaration>DJISDKCameraErrorMemoryAllocationFailed</Declaration>
+            
+            <DeclaredIn>NSError+DJISDK.h</DeclaredIn>
+            
+            <NodeRef refid="151"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJISDKCameraErrorCommandCurrentlyNotEnabled</TokenIdentifier>
+            <Abstract type="html">Camera busy or command could not execute in current state.
+     </Abstract>
+            <Declaration>DJISDKCameraErrorCommandCurrentlyNotEnabled</Declaration>
+            
+            <DeclaredIn>NSError+DJISDK.h</DeclaredIn>
+            
+            <NodeRef refid="151"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJISDKCameraErrorTimeNotSynced</TokenIdentifier>
+            <Abstract type="html">Camera time not synced.
+     </Abstract>
+            <Declaration>DJISDKCameraErrorTimeNotSynced</Declaration>
+            
+            <DeclaredIn>NSError+DJISDK.h</DeclaredIn>
+            
+            <NodeRef refid="151"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJISDKCameraErrorSDCardNotInserted</TokenIdentifier>
+            <Abstract type="html">No SD card.
+     </Abstract>
+            <Declaration>DJISDKCameraErrorSDCardNotInserted</Declaration>
+            
+            <DeclaredIn>NSError+DJISDK.h</DeclaredIn>
+            
+            <NodeRef refid="151"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJISDKCameraErrorSDCardFull</TokenIdentifier>
+            <Abstract type="html">SD card full.
+     </Abstract>
+            <Declaration>DJISDKCameraErrorSDCardFull</Declaration>
+            
+            <DeclaredIn>NSError+DJISDK.h</DeclaredIn>
+            
+            <NodeRef refid="151"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJISDKCameraErrorSDCardError</TokenIdentifier>
+            <Abstract type="html">SD card error.
+     </Abstract>
+            <Declaration>DJISDKCameraErrorSDCardError</Declaration>
+            
+            <DeclaredIn>NSError+DJISDK.h</DeclaredIn>
+            
+            <NodeRef refid="151"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJISDKCameraErrorSensorError</TokenIdentifier>
+            <Abstract type="html">Camera sensor error.
+     </Abstract>
+            <Declaration>DJISDKCameraErrorSensorError</Declaration>
+            
+            <DeclaredIn>NSError+DJISDK.h</DeclaredIn>
+            
+            <NodeRef refid="151"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJISDKCameraErrorSystemError</TokenIdentifier>
+            <Abstract type="html">Camera system error.
+     </Abstract>
+            <Declaration>DJISDKCameraErrorSystemError</Declaration>
+            
+            <DeclaredIn>NSError+DJISDK.h</DeclaredIn>
+            
+            <NodeRef refid="151"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJISDKCameraErrorMediaTypeError</TokenIdentifier>
+            <Abstract type="html">Media type error.
+     </Abstract>
+            <Declaration>DJISDKCameraErrorMediaTypeError</Declaration>
+            
+            <DeclaredIn>NSError+DJISDK.h</DeclaredIn>
+            
+            <NodeRef refid="151"/>
+        </Token>
+        
+	</File>
+</Tokens>

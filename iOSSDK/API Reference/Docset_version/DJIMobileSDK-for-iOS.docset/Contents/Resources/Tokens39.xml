@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIMediaManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIMediaManager</TokenIdentifier>
+			<Abstract type="html">The media manager is used to interact with the file system in the SD card.
+By using the manager, user can get the meta data for all the multimedia
+files and access to each single multimedia file.</Abstract>
+			<DeclaredIn>DJIMediaManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="39"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIMediaManager/fetchMediaListWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Fetch media list from remote album. The camera&apos;s work mode should be set as DJICameraModeMediaDownload.</Abstract>
+			<DeclaredIn>DJIMediaManager.h</DeclaredIn>
+			
+			<Declaration>- (void)fetchMediaListWithCompletion:(void ( ^ ) ( NSArray&lt;DJIMedia*&gt; *_Nullable mediaList , NSError *_Nullable error ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Remote execute result. Objects in mediaList are kind of class DJIMedia.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fetchMediaListWithCompletion:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIMediaManager/deleteMedia:withCompletion:</TokenIdentifier>
+			<Abstract type="html">Delete media from remote album. The camera&apos;s work mode should be set as DJICameraModeMediaDownload.</Abstract>
+			<DeclaredIn>DJIMediaManager.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteMedia:(NSArray&lt;DJIMedia*&gt; *)media withCompletion:(void ( ^ ) ( NSArray&lt;DJIMedia*&gt; *_Nonnull deleteFailures , NSError *_Nullable error ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>media</Name>
+					<Abstract type="html">Media files to be deleted.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Remote execute result, &apos;deleteFailures&apos; will contain media which failed to delete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteMedia:withCompletion:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

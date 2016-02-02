@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIPanoramaMission.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIPanoramaMission</TokenIdentifier>
+			<Abstract type="html">User can use this mission to rotate camera 360 or 180 degrees to takes several photos. Then download the photos to render a panorama. Please note that
+photo stitching is not provided in the SDK. In full circle mode, 8 photos are taken. In half circle mode, 5 photos are taken.</Abstract>
+			<DeclaredIn>DJIPanoramaMission.h</DeclaredIn>
+            
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPanoramaMission/setPanoramaMode:</TokenIdentifier>
+			<Abstract type="html">Returns the current panorama mode of this mission.</Abstract>
+			<DeclaredIn>DJIPanoramaMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIPanoramaMode panoramaMode</Declaration>
+			
+			
+			<Anchor>//api/name/panoramaMode</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPanoramaMission/panoramaMode</TokenIdentifier>
+			<Abstract type="html">Returns the current panorama mode of this mission.</Abstract>
+			<DeclaredIn>DJIPanoramaMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIPanoramaMode panoramaMode</Declaration>
+			
+			
+			<Anchor>//api/name/panoramaMode</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIPanoramaMission/panoramaMode</TokenIdentifier>
+			<Abstract type="html">Returns the current panorama mode of this mission.</Abstract>
+			<DeclaredIn>DJIPanoramaMission.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJIPanoramaMode panoramaMode</Declaration>
+			
+			
+			<Anchor>//api/name/panoramaMode</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPanoramaMission/initWithPanoramaMode:</TokenIdentifier>
+			<Abstract type="html">Initializer for the Panorama mission object with panorama mode.</Abstract>
+			<DeclaredIn>DJIPanoramaMission.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithPanoramaMode:(DJIPanoramaMode)mode</Declaration>
+			
+			
+			<Anchor>//api/name/initWithPanoramaMode:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIPanoramaMission/getPanoramaMediaFileWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Retrieves the DJIMedia object for the recently finished panorama mission. Use fetchSubMediaFileListWithCompletion: method on the retrieved DJIMedia to
+retrieve the panorama photos.</Abstract>
+			<DeclaredIn>DJIPanoramaMission.h</DeclaredIn>
+			
+			<Declaration>- (void)getPanoramaMediaFileWithCompletion:(void ( ^ ) ( DJIMedia *_Nullable panoMedia , NSError *_Nullable error ))block</Declaration>
+			
+			
+			<Anchor>//api/name/getPanoramaMediaFileWithCompletion:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

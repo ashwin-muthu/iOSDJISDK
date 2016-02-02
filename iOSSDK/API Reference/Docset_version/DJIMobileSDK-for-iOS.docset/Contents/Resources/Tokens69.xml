@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/DJIHandheldControllerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/DJIHandheldControllerDelegate</TokenIdentifier>
+			<Abstract type="html">This protocol provides a delegate method to receive the updated power mode of the handheld controller.</Abstract>
+			<DeclaredIn>DJIHandheldController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="69"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJIHandheldControllerDelegate/handheldController:didUpdatePowerMode:</TokenIdentifier>
+			<Abstract type="html">Tells the delegate that a handheld controller&apos;s power mode is updated.</Abstract>
+			<DeclaredIn>DJIHandheldController.h</DeclaredIn>
+			
+			<Declaration>- (void)handheldController:(DJIHandheldController *)controller didUpdatePowerMode:(DJIHandheldPowerMode)powerMode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>controller</Name>
+					<Abstract type="html">the handheld controller that updates the power mode</Abstract>
+				</Parameter><Parameter>
+					<Name>powerMode</Name>
+					<Abstract type="html">handheld controller&apos;s current power mode</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handheldController:didUpdatePowerMode:</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

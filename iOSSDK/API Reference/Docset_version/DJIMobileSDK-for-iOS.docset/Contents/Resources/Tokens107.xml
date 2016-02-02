@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICompassCalibrationStatus.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICompassCalibrationStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+            
+			
+			<NodeRef refid="107"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICompassCalibrationStatusNone</TokenIdentifier>
+            <Abstract type="html">Compass not in calibration.
+     </Abstract>
+            <Declaration>DJICompassCalibrationStatusNone</Declaration>
+            
+            <DeclaredIn>DJICompass.h</DeclaredIn>
+            
+            <NodeRef refid="107"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICompassCalibrationStatusHorizontal</TokenIdentifier>
+            <Abstract type="html">Compass horizontal calibration. User should hold the aircraft horizontally and rotate it 360 degree.
+     </Abstract>
+            <Declaration>DJICompassCalibrationStatusHorizontal</Declaration>
+            
+            <DeclaredIn>DJICompass.h</DeclaredIn>
+            
+            <NodeRef refid="107"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICompassCalibrationStatusVertical</TokenIdentifier>
+            <Abstract type="html">Compass vertical calibration. User should hold the aircraft vertically, with the nose pointed towards the ground, and rotate aircraft 360 degrees.
+     </Abstract>
+            <Declaration>DJICompassCalibrationStatusVertical</Declaration>
+            
+            <DeclaredIn>DJICompass.h</DeclaredIn>
+            
+            <NodeRef refid="107"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICompassCalibrationStatusSucceeded</TokenIdentifier>
+            <Abstract type="html">Compass calibration succeeded.
+     </Abstract>
+            <Declaration>DJICompassCalibrationStatusSucceeded</Declaration>
+            
+            <DeclaredIn>DJICompass.h</DeclaredIn>
+            
+            <NodeRef refid="107"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICompassCalibrationStatusFailed</TokenIdentifier>
+            <Abstract type="html">Compass calibration failed. Make sure there are no magnets or metal objects near the compass and retry.
+     </Abstract>
+            <Declaration>DJICompassCalibrationStatusFailed</Declaration>
+            
+            <DeclaredIn>DJICompass.h</DeclaredIn>
+            
+            <NodeRef refid="107"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICompassCalibrationStatusUnknown</TokenIdentifier>
+            <Abstract type="html">Compass calibration status unknown.
+     </Abstract>
+            <Declaration>DJICompassCalibrationStatusUnknown</Declaration>
+            
+            <DeclaredIn>DJICompass.h</DeclaredIn>
+            
+            <NodeRef refid="107"/>
+        </Token>
+        
+	</File>
+</Tokens>

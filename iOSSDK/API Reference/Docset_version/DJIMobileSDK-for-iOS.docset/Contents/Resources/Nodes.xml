@@ -1,0 +1,2849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>DJIIOSMobileSDK</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						<NodeRef refid="30"/>
+						<NodeRef refid="31"/>
+						<NodeRef refid="32"/>
+						<NodeRef refid="33"/>
+						<NodeRef refid="34"/>
+						<NodeRef refid="35"/>
+						<NodeRef refid="36"/>
+						<NodeRef refid="37"/>
+						<NodeRef refid="38"/>
+						<NodeRef refid="39"/>
+						<NodeRef refid="40"/>
+						<NodeRef refid="41"/>
+						<NodeRef refid="42"/>
+						<NodeRef refid="43"/>
+						<NodeRef refid="44"/>
+						<NodeRef refid="45"/>
+						<NodeRef refid="46"/>
+						<NodeRef refid="47"/>
+						<NodeRef refid="48"/>
+						<NodeRef refid="49"/>
+						<NodeRef refid="50"/>
+						<NodeRef refid="51"/>
+						<NodeRef refid="52"/>
+						<NodeRef refid="53"/>
+						<NodeRef refid="54"/>
+						<NodeRef refid="55"/>
+						<NodeRef refid="56"/>
+						<NodeRef refid="57"/>
+						<NodeRef refid="58"/>
+						<NodeRef refid="59"/>
+						<NodeRef refid="60"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node>
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="61"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+				<Node>
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="62"/>
+						<NodeRef refid="63"/>
+						<NodeRef refid="64"/>
+						<NodeRef refid="65"/>
+						<NodeRef refid="66"/>
+						<NodeRef refid="67"/>
+						<NodeRef refid="68"/>
+						<NodeRef refid="69"/>
+						<NodeRef refid="70"/>
+						<NodeRef refid="71"/>
+						<NodeRef refid="72"/>
+						<NodeRef refid="73"/>
+						<NodeRef refid="74"/>
+						<NodeRef refid="75"/>
+						<NodeRef refid="76"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+				<Node>
+					<Name>Constants</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="77"/>
+						<NodeRef refid="78"/>
+						<NodeRef refid="79"/>
+						<NodeRef refid="80"/>
+						<NodeRef refid="81"/>
+						<NodeRef refid="82"/>
+						<NodeRef refid="83"/>
+						<NodeRef refid="84"/>
+						<NodeRef refid="85"/>
+						<NodeRef refid="86"/>
+						<NodeRef refid="87"/>
+						<NodeRef refid="88"/>
+						<NodeRef refid="89"/>
+						<NodeRef refid="90"/>
+						<NodeRef refid="91"/>
+						<NodeRef refid="92"/>
+						<NodeRef refid="93"/>
+						<NodeRef refid="94"/>
+						<NodeRef refid="95"/>
+						<NodeRef refid="96"/>
+						<NodeRef refid="97"/>
+						<NodeRef refid="98"/>
+						<NodeRef refid="99"/>
+						<NodeRef refid="100"/>
+						<NodeRef refid="101"/>
+						<NodeRef refid="102"/>
+						<NodeRef refid="103"/>
+						<NodeRef refid="104"/>
+						<NodeRef refid="105"/>
+						<NodeRef refid="106"/>
+						<NodeRef refid="107"/>
+						<NodeRef refid="108"/>
+						<NodeRef refid="109"/>
+						<NodeRef refid="110"/>
+						<NodeRef refid="111"/>
+						<NodeRef refid="112"/>
+						<NodeRef refid="113"/>
+						<NodeRef refid="114"/>
+						<NodeRef refid="115"/>
+						<NodeRef refid="116"/>
+						<NodeRef refid="117"/>
+						<NodeRef refid="118"/>
+						<NodeRef refid="119"/>
+						<NodeRef refid="120"/>
+						<NodeRef refid="121"/>
+						<NodeRef refid="122"/>
+						<NodeRef refid="123"/>
+						<NodeRef refid="124"/>
+						<NodeRef refid="125"/>
+						<NodeRef refid="126"/>
+						<NodeRef refid="127"/>
+						<NodeRef refid="128"/>
+						<NodeRef refid="129"/>
+						<NodeRef refid="130"/>
+						<NodeRef refid="131"/>
+						<NodeRef refid="132"/>
+						<NodeRef refid="133"/>
+						<NodeRef refid="134"/>
+						<NodeRef refid="135"/>
+						<NodeRef refid="136"/>
+						<NodeRef refid="137"/>
+						<NodeRef refid="138"/>
+						<NodeRef refid="139"/>
+						<NodeRef refid="140"/>
+						<NodeRef refid="141"/>
+						<NodeRef refid="142"/>
+						<NodeRef refid="143"/>
+						<NodeRef refid="144"/>
+						<NodeRef refid="145"/>
+						<NodeRef refid="146"/>
+						<NodeRef refid="147"/>
+						<NodeRef refid="148"/>
+						<NodeRef refid="149"/>
+						<NodeRef refid="150"/>
+						<NodeRef refid="151"/>
+						<NodeRef refid="152"/>
+						<NodeRef refid="153"/>
+						<NodeRef refid="154"/>
+						<NodeRef refid="155"/>
+						<NodeRef refid="156"/>
+						<NodeRef refid="157"/>
+						<NodeRef refid="158"/>
+						<NodeRef refid="159"/>
+						<NodeRef refid="160"/>
+						<NodeRef refid="161"/>
+						<NodeRef refid="162"/>
+						<NodeRef refid="163"/>
+						<NodeRef refid="164"/>
+						<NodeRef refid="165"/>
+						<NodeRef refid="166"/>
+						<NodeRef refid="167"/>
+						<NodeRef refid="168"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1" type="file" documentType="reference">
+            <Name>DJIAirLink</Name>
+            <Path>Classes/DJIAirLink.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIAirLink.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIAirLink.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIAirLink.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="2" type="file" documentType="reference">
+            <Name>DJIAircraft</Name>
+            <Path>Classes/DJIAircraft.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIAircraft.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIAircraft.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIAircraft.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIAircraft.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="3" type="file" documentType="reference">
+            <Name>DJIBaseComponent</Name>
+            <Path>Classes/DJIBaseComponent.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIBaseComponent.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIBaseComponent.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIBaseComponent.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIBaseComponent.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="4" type="file" documentType="reference">
+            <Name>DJIBaseProduct</Name>
+            <Path>Classes/DJIBaseProduct.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIBaseProduct.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIBaseProduct.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIBaseProduct.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIBaseProduct.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="5" type="file" documentType="reference">
+            <Name>DJIBattery</Name>
+            <Path>Classes/DJIBattery.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIBattery.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIBattery.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIBattery.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIBattery.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="6" type="file" documentType="reference">
+            <Name>DJIBatteryCell</Name>
+            <Path>Classes/DJIBatteryCell.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIBatteryCell.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIBatteryCell.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIBatteryCell.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="7" type="file" documentType="reference">
+            <Name>DJIBatteryState</Name>
+            <Path>Classes/DJIBatteryState.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIBatteryState.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIBatteryState.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIBatteryState.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="8" type="file" documentType="reference">
+            <Name>DJIBatteryWarningInformation</Name>
+            <Path>Classes/DJIBatteryWarningInformation.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIBatteryWarningInformation.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIBatteryWarningInformation.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIBatteryWarningInformation.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="9" type="file" documentType="reference">
+            <Name>DJICamera</Name>
+            <Path>Classes/DJICamera.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJICamera.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJICamera.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJICamera.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJICamera.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="10" type="file" documentType="reference">
+            <Name>DJICameraLensState</Name>
+            <Path>Classes/DJICameraLensState.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJICameraLensState.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJICameraLensState.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJICameraLensState.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="11" type="file" documentType="reference">
+            <Name>DJICameraParameters</Name>
+            <Path>Classes/DJICameraParameters.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJICameraParameters.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJICameraParameters.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJICameraParameters.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJICameraParameters.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="12" type="file" documentType="reference">
+            <Name>DJICameraPlaybackState</Name>
+            <Path>Classes/DJICameraPlaybackState.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJICameraPlaybackState.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJICameraPlaybackState.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJICameraPlaybackState.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="13" type="file" documentType="reference">
+            <Name>DJICameraSDCardState</Name>
+            <Path>Classes/DJICameraSDCardState.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJICameraSDCardState.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJICameraSDCardState.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJICameraSDCardState.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="14" type="file" documentType="reference">
+            <Name>DJICameraSystemState</Name>
+            <Path>Classes/DJICameraSystemState.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJICameraSystemState.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJICameraSystemState.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJICameraSystemState.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="15" type="file" documentType="reference">
+            <Name>DJICompass</Name>
+            <Path>Classes/DJICompass.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJICompass.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJICompass.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJICompass.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJICompass.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="16" type="file" documentType="reference">
+            <Name>DJICustomMission</Name>
+            <Path>Classes/DJICustomMission.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJICustomMission.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJICustomMission.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJICustomMission.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="17" type="file" documentType="reference">
+            <Name>DJICustomMissionStatus</Name>
+            <Path>Classes/DJICustomMissionStatus.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJICustomMissionStatus.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJICustomMissionStatus.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJICustomMissionStatus.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="18" type="file" documentType="reference">
+            <Name>DJIFlightController</Name>
+            <Path>Classes/DJIFlightController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIFlightController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIFlightController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIFlightController.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIFlightController.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="19" type="file" documentType="reference">
+            <Name>DJIFlightControllerCurrentState</Name>
+            <Path>Classes/DJIFlightControllerCurrentState.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIFlightControllerCurrentState.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIFlightControllerCurrentState.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIFlightControllerCurrentState.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="20" type="file" documentType="reference">
+            <Name>DJIFlightLimitation</Name>
+            <Path>Classes/DJIFlightLimitation.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIFlightLimitation.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIFlightLimitation.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIFlightLimitation.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIFlightLimitation.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="21" type="file" documentType="reference">
+            <Name>DJIFollowMeMission</Name>
+            <Path>Classes/DJIFollowMeMission.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIFollowMeMission.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIFollowMeMission.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIFollowMeMission.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIFollowMeMission.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="22" type="file" documentType="reference">
+            <Name>DJIFollowMeMissionStatus</Name>
+            <Path>Classes/DJIFollowMeMissionStatus.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIFollowMeMissionStatus.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIFollowMeMissionStatus.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIFollowMeMissionStatus.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="23" type="file" documentType="reference">
+            <Name>DJIFollowMeStep</Name>
+            <Path>Classes/DJIFollowMeStep.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIFollowMeStep.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIFollowMeStep.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIFollowMeStep.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="24" type="file" documentType="reference">
+            <Name>DJIGimbal</Name>
+            <Path>Classes/DJIGimbal.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIGimbal.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIGimbal.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIGimbal.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIGimbal.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="25" type="file" documentType="reference">
+            <Name>DJIGimbalAttitudeStep</Name>
+            <Path>Classes/DJIGimbalAttitudeStep.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIGimbalAttitudeStep.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIGimbalAttitudeStep.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIGimbalAttitudeStep.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIGimbalAttitudeStep.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="26" type="file" documentType="reference">
+            <Name>DJIGimbalConfig</Name>
+            <Path>Classes/DJIGimbalConfig.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIGimbalConfig.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIGimbalConfig.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIGimbalConfig.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="27" type="file" documentType="reference">
+            <Name>DJIGimbalConstraints</Name>
+            <Path>Classes/DJIGimbalConstraints.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIGimbalConstraints.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIGimbalConstraints.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIGimbalConstraints.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="28" type="file" documentType="reference">
+            <Name>DJIGimbalState</Name>
+            <Path>Classes/DJIGimbalState.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIGimbalState.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIGimbalState.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIGimbalState.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="29" type="file" documentType="reference">
+            <Name>DJIGoHomeStep</Name>
+            <Path>Classes/DJIGoHomeStep.html</Path>
+            
+        </Node>
+		<Node id="30" type="file" documentType="reference">
+            <Name>DJIGoToStep</Name>
+            <Path>Classes/DJIGoToStep.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIGoToStep.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIGoToStep.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIGoToStep.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIGoToStep.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="31" type="file" documentType="reference">
+            <Name>DJIHandheld</Name>
+            <Path>Classes/DJIHandheld.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIHandheld.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIHandheld.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIHandheld.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="32" type="file" documentType="reference">
+            <Name>DJIHandheldController</Name>
+            <Path>Classes/DJIHandheldController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIHandheldController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIHandheldController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIHandheldController.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIHandheldController.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="33" type="file" documentType="reference">
+            <Name>DJIHotPointMission</Name>
+            <Path>Classes/DJIHotPointMission.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIHotPointMission.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIHotPointMission.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIHotPointMission.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIHotPointMission.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="34" type="file" documentType="reference">
+            <Name>DJIHotPointMissionStatus</Name>
+            <Path>Classes/DJIHotPointMissionStatus.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIHotPointMissionStatus.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIHotPointMissionStatus.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIHotPointMissionStatus.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="35" type="file" documentType="reference">
+            <Name>DJIHotpointStep</Name>
+            <Path>Classes/DJIHotpointStep.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIHotpointStep.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIHotpointStep.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIHotpointStep.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIHotpointStep.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="36" type="file" documentType="reference">
+            <Name>DJILBAirLink</Name>
+            <Path>Classes/DJILBAirLink.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJILBAirLink.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJILBAirLink.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJILBAirLink.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJILBAirLink.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="37" type="file" documentType="reference">
+            <Name>DJILandingGear</Name>
+            <Path>Classes/DJILandingGear.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJILandingGear.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJILandingGear.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJILandingGear.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJILandingGear.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="38" type="file" documentType="reference">
+            <Name>DJIMedia</Name>
+            <Path>Classes/DJIMedia.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIMedia.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIMedia.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIMedia.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIMedia.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="39" type="file" documentType="reference">
+            <Name>DJIMediaManager</Name>
+            <Path>Classes/DJIMediaManager.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIMediaManager.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIMediaManager.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIMediaManager.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="40" type="file" documentType="reference">
+            <Name>DJIMission</Name>
+            <Path>Classes/DJIMission.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIMission.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIMission.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIMission.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="41" type="file" documentType="reference">
+            <Name>DJIMissionManager</Name>
+            <Path>Classes/DJIMissionManager.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIMissionManager.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIMissionManager.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIMissionManager.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIMissionManager.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIMissionManager.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="42" type="file" documentType="reference">
+            <Name>DJIMissionProgressStatus</Name>
+            <Path>Classes/DJIMissionProgressStatus.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIMissionProgressStatus.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIMissionProgressStatus.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIMissionProgressStatus.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="43" type="file" documentType="reference">
+            <Name>DJIMissionStep</Name>
+            <Path>Classes/DJIMissionStep.html</Path>
+            
+        </Node>
+		<Node id="44" type="file" documentType="reference">
+            <Name>DJIPanoramaMission</Name>
+            <Path>Classes/DJIPanoramaMission.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIPanoramaMission.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIPanoramaMission.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIPanoramaMission.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIPanoramaMission.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="45" type="file" documentType="reference">
+            <Name>DJIPanoramaMissionStatus</Name>
+            <Path>Classes/DJIPanoramaMissionStatus.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIPanoramaMissionStatus.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIPanoramaMissionStatus.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIPanoramaMissionStatus.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="46" type="file" documentType="reference">
+            <Name>DJIPlaybackManager</Name>
+            <Path>Classes/DJIPlaybackManager.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIPlaybackManager.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIPlaybackManager.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIPlaybackManager.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIPlaybackManager.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="47" type="file" documentType="reference">
+            <Name>DJIRCInfo</Name>
+            <Path>Classes/DJIRCInfo.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIRCInfo.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIRCInfo.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIRCInfo.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIRCInfo.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="48" type="file" documentType="reference">
+            <Name>DJIRecordVideoStep</Name>
+            <Path>Classes/DJIRecordVideoStep.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIRecordVideoStep.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIRecordVideoStep.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIRecordVideoStep.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="49" type="file" documentType="reference">
+            <Name>DJIRemoteController</Name>
+            <Path>Classes/DJIRemoteController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIRemoteController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIRemoteController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIRemoteController.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIRemoteController.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="50" type="file" documentType="reference">
+            <Name>DJIRemoteLogger</Name>
+            <Path>Classes/DJIRemoteLogger.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIRemoteLogger.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIRemoteLogger.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIRemoteLogger.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="51" type="file" documentType="reference">
+            <Name>DJISDKManager</Name>
+            <Path>Classes/DJISDKManager.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJISDKManager.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJISDKManager.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJISDKManager.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="52" type="file" documentType="reference">
+            <Name>DJIShootPhotoStep</Name>
+            <Path>Classes/DJIShootPhotoStep.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIShootPhotoStep.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIShootPhotoStep.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIShootPhotoStep.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="53" type="file" documentType="reference">
+            <Name>DJISignalInformation</Name>
+            <Path>Classes/DJISignalInformation.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJISignalInformation.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJISignalInformation.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJISignalInformation.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="54" type="file" documentType="reference">
+            <Name>DJITakeoffStep</Name>
+            <Path>Classes/DJITakeoffStep.html</Path>
+            
+        </Node>
+		<Node id="55" type="file" documentType="reference">
+            <Name>DJIWaypoint</Name>
+            <Path>Classes/DJIWaypoint.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIWaypoint.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIWaypoint.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIWaypoint.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIWaypoint.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="56" type="file" documentType="reference">
+            <Name>DJIWaypointAction</Name>
+            <Path>Classes/DJIWaypointAction.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIWaypointAction.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIWaypointAction.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIWaypointAction.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIWaypointAction.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="57" type="file" documentType="reference">
+            <Name>DJIWaypointMission</Name>
+            <Path>Classes/DJIWaypointMission.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIWaypointMission.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIWaypointMission.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIWaypointMission.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIWaypointMission.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIWaypointMission.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="58" type="file" documentType="reference">
+            <Name>DJIWaypointMissionStatus</Name>
+            <Path>Classes/DJIWaypointMissionStatus.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIWaypointMissionStatus.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIWaypointMissionStatus.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIWaypointMissionStatus.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="59" type="file" documentType="reference">
+            <Name>DJIWaypointStep</Name>
+            <Path>Classes/DJIWaypointStep.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIWaypointStep.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIWaypointStep.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIWaypointStep.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="60" type="file" documentType="reference">
+            <Name>DJIWiFiLink</Name>
+            <Path>Classes/DJIWiFiLink.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/DJIWiFiLink.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/DJIWiFiLink.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/DJIWiFiLink.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/DJIWiFiLink.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+		<Node id="61" type="file" documentType="reference">
+            <Name>NSError(DJISDK)</Name>
+            <Path>Categories/NSError+DJISDK.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/NSError+DJISDK.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/NSError+DJISDK.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Categories/NSError+DJISDK.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		
+        <Node id="62" type="file" documentType="reference">
+            <Name>DJIBaseProductDelegate</Name>
+            <Path>Protocols/DJIBaseProductDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJIBaseProductDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJIBaseProductDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJIBaseProductDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="63" type="file" documentType="reference">
+            <Name>DJIBatteryDelegate</Name>
+            <Path>Protocols/DJIBatteryDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJIBatteryDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJIBatteryDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJIBatteryDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="64" type="file" documentType="reference">
+            <Name>DJICameraDelegate</Name>
+            <Path>Protocols/DJICameraDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJICameraDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJICameraDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJICameraDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="65" type="file" documentType="reference">
+            <Name>DJICameraParametersListener</Name>
+            <Path>Protocols/DJICameraParametersListener.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJICameraParametersListener.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJICameraParametersListener.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJICameraParametersListener.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="66" type="file" documentType="reference">
+            <Name>DJIComponentConnectivityDelegate</Name>
+            <Path>Protocols/DJIComponentConnectivityDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJIComponentConnectivityDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJIComponentConnectivityDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJIComponentConnectivityDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="67" type="file" documentType="reference">
+            <Name>DJIFlightControllerDelegate</Name>
+            <Path>Protocols/DJIFlightControllerDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJIFlightControllerDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJIFlightControllerDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJIFlightControllerDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="68" type="file" documentType="reference">
+            <Name>DJIGimbalDelegate</Name>
+            <Path>Protocols/DJIGimbalDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJIGimbalDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJIGimbalDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJIGimbalDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="69" type="file" documentType="reference">
+            <Name>DJIHandheldControllerDelegate</Name>
+            <Path>Protocols/DJIHandheldControllerDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJIHandheldControllerDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJIHandheldControllerDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJIHandheldControllerDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="70" type="file" documentType="reference">
+            <Name>DJILBAirLinkDelegate</Name>
+            <Path>Protocols/DJILBAirLinkDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJILBAirLinkDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJILBAirLinkDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJILBAirLinkDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="71" type="file" documentType="reference">
+            <Name>DJIMissionManagerDelegate</Name>
+            <Path>Protocols/DJIMissionManagerDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJIMissionManagerDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJIMissionManagerDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJIMissionManagerDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="72" type="file" documentType="reference">
+            <Name>DJIPlaybackDelegate</Name>
+            <Path>Protocols/DJIPlaybackDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJIPlaybackDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJIPlaybackDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJIPlaybackDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="73" type="file" documentType="reference">
+            <Name>DJIRemoteControllerDelegate</Name>
+            <Path>Protocols/DJIRemoteControllerDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJIRemoteControllerDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJIRemoteControllerDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJIRemoteControllerDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="74" type="file" documentType="reference">
+            <Name>DJISDKDebugServerDelegate</Name>
+            <Path>Protocols/DJISDKDebugServerDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJISDKDebugServerDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJISDKDebugServerDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJISDKDebugServerDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="75" type="file" documentType="reference">
+            <Name>DJISDKManagerDelegate</Name>
+            <Path>Protocols/DJISDKManagerDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJISDKManagerDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJISDKManagerDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJISDKManagerDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="76" type="file" documentType="reference">
+            <Name>DJIWiFiLinkDelegate</Name>
+            <Path>Protocols/DJIWiFiLinkDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/DJIWiFiLinkDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/DJIWiFiLinkDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/DJIWiFiLinkDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+        <Node id="77" type="file" documentType="reference">
+            <Name>DJIAircraftRemainingBatteryState</Name>
+            <Path>Constants/DJIAircraftRemainingBatteryState.html</Path>
+            
+        </Node>
+		<Node id="78" type="file" documentType="reference">
+            <Name>DJICameraAntiFlicker</Name>
+            <Path>Constants/DJICameraAntiFlicker.html</Path>
+            
+        </Node>
+		<Node id="79" type="file" documentType="reference">
+            <Name>DJICameraAperture</Name>
+            <Path>Constants/DJICameraAperture.html</Path>
+            
+        </Node>
+		<Node id="80" type="file" documentType="reference">
+            <Name>DJICameraContrast</Name>
+            <Path>Constants/DJICameraContrast.html</Path>
+            
+        </Node>
+		<Node id="81" type="file" documentType="reference">
+            <Name>DJICameraCustomSettings</Name>
+            <Path>Constants/DJICameraCustomSettings.html</Path>
+            
+        </Node>
+		<Node id="82" type="file" documentType="reference">
+            <Name>DJICameraDigitalFilter</Name>
+            <Path>Constants/DJICameraDigitalFilter.html</Path>
+            
+        </Node>
+		<Node id="83" type="file" documentType="reference">
+            <Name>DJICameraExposureCompensation</Name>
+            <Path>Constants/DJICameraExposureCompensation.html</Path>
+            
+        </Node>
+		<Node id="84" type="file" documentType="reference">
+            <Name>DJICameraExposureMode</Name>
+            <Path>Constants/DJICameraExposureMode.html</Path>
+            
+        </Node>
+		<Node id="85" type="file" documentType="reference">
+            <Name>DJICameraFileIndexMode</Name>
+            <Path>Constants/DJICameraFileIndexMode.html</Path>
+            
+        </Node>
+		<Node id="86" type="file" documentType="reference">
+            <Name>DJICameraISO</Name>
+            <Path>Constants/DJICameraISO.html</Path>
+            
+        </Node>
+		<Node id="87" type="file" documentType="reference">
+            <Name>DJICameraLensFocusMode</Name>
+            <Path>Constants/DJICameraLensFocusMode.html</Path>
+            
+        </Node>
+		<Node id="88" type="file" documentType="reference">
+            <Name>DJICameraLensFocusStatus</Name>
+            <Path>Constants/DJICameraLensFocusStatus.html</Path>
+            
+        </Node>
+		<Node id="89" type="file" documentType="reference">
+            <Name>DJICameraMeteringMode</Name>
+            <Path>Constants/DJICameraMeteringMode.html</Path>
+            
+        </Node>
+		<Node id="90" type="file" documentType="reference">
+            <Name>DJICameraMode</Name>
+            <Path>Constants/DJICameraMode.html</Path>
+            
+        </Node>
+		<Node id="91" type="file" documentType="reference">
+            <Name>DJICameraPhotoAspectRatio</Name>
+            <Path>Constants/DJICameraPhotoAspectRatio.html</Path>
+            
+        </Node>
+		<Node id="92" type="file" documentType="reference">
+            <Name>DJICameraPhotoBurstCount</Name>
+            <Path>Constants/DJICameraPhotoBurstCount.html</Path>
+            
+        </Node>
+		<Node id="93" type="file" documentType="reference">
+            <Name>DJICameraPhotoFileFormat</Name>
+            <Path>Constants/DJICameraPhotoFileFormat.html</Path>
+            
+        </Node>
+		<Node id="94" type="file" documentType="reference">
+            <Name>DJICameraPhotoQuality</Name>
+            <Path>Constants/DJICameraPhotoQuality.html</Path>
+            
+        </Node>
+		<Node id="95" type="file" documentType="reference">
+            <Name>DJICameraPhotoTimeLapseFileFormat</Name>
+            <Path>Constants/DJICameraPhotoTimeLapseFileFormat.html</Path>
+            
+        </Node>
+		<Node id="96" type="file" documentType="reference">
+            <Name>DJICameraPlaybackDeletionStatus</Name>
+            <Path>Constants/DJICameraPlaybackDeletionStatus.html</Path>
+            
+        </Node>
+		<Node id="97" type="file" documentType="reference">
+            <Name>DJICameraPlaybackFileFormat</Name>
+            <Path>Constants/DJICameraPlaybackFileFormat.html</Path>
+            
+        </Node>
+		<Node id="98" type="file" documentType="reference">
+            <Name>DJICameraPlaybackMode</Name>
+            <Path>Constants/DJICameraPlaybackMode.html</Path>
+            
+        </Node>
+		<Node id="99" type="file" documentType="reference">
+            <Name>DJICameraSharpness</Name>
+            <Path>Constants/DJICameraSharpness.html</Path>
+            
+        </Node>
+		<Node id="100" type="file" documentType="reference">
+            <Name>DJICameraShootPhotoMode</Name>
+            <Path>Constants/DJICameraShootPhotoMode.html</Path>
+            
+        </Node>
+		<Node id="101" type="file" documentType="reference">
+            <Name>DJICameraShutterSpeed</Name>
+            <Path>Constants/DJICameraShutterSpeed.html</Path>
+            
+        </Node>
+		<Node id="102" type="file" documentType="reference">
+            <Name>DJICameraVideoFileFormat</Name>
+            <Path>Constants/DJICameraVideoFileFormat.html</Path>
+            
+        </Node>
+		<Node id="103" type="file" documentType="reference">
+            <Name>DJICameraVideoFrameRate</Name>
+            <Path>Constants/DJICameraVideoFrameRate.html</Path>
+            
+        </Node>
+		<Node id="104" type="file" documentType="reference">
+            <Name>DJICameraVideoResolution</Name>
+            <Path>Constants/DJICameraVideoResolution.html</Path>
+            
+        </Node>
+		<Node id="105" type="file" documentType="reference">
+            <Name>DJICameraVideoStandard</Name>
+            <Path>Constants/DJICameraVideoStandard.html</Path>
+            
+        </Node>
+		<Node id="106" type="file" documentType="reference">
+            <Name>DJICameraWhiteBalance</Name>
+            <Path>Constants/DJICameraWhiteBalance.html</Path>
+            
+        </Node>
+		<Node id="107" type="file" documentType="reference">
+            <Name>DJICompassCalibrationStatus</Name>
+            <Path>Constants/DJICompassCalibrationStatus.html</Path>
+            
+        </Node>
+		<Node id="108" type="file" documentType="reference">
+            <Name>DJIDownloadFileType</Name>
+            <Path>Constants/DJIDownloadFileType.html</Path>
+            
+        </Node>
+		<Node id="109" type="file" documentType="reference">
+            <Name>DJIFlightControllerFlightMode</Name>
+            <Path>Constants/DJIFlightControllerFlightMode.html</Path>
+            
+        </Node>
+		<Node id="110" type="file" documentType="reference">
+            <Name>DJIFlightControllerNoFlyStatus</Name>
+            <Path>Constants/DJIFlightControllerNoFlyStatus.html</Path>
+            
+        </Node>
+		<Node id="111" type="file" documentType="reference">
+            <Name>DJIFlightOrientationMode</Name>
+            <Path>Constants/DJIFlightOrientationMode.html</Path>
+            
+        </Node>
+		<Node id="112" type="file" documentType="reference">
+            <Name>DJIFollowMeHeading</Name>
+            <Path>Constants/DJIFollowMeHeading.html</Path>
+            
+        </Node>
+		<Node id="113" type="file" documentType="reference">
+            <Name>DJIFollowMeMissionExecutionState</Name>
+            <Path>Constants/DJIFollowMeMissionExecutionState.html</Path>
+            
+        </Node>
+		<Node id="114" type="file" documentType="reference">
+            <Name>DJIGPSSignalStatus</Name>
+            <Path>Constants/DJIGPSSignalStatus.html</Path>
+            
+        </Node>
+		<Node id="115" type="file" documentType="reference">
+            <Name>DJIGimbalJoystickAxis</Name>
+            <Path>Constants/DJIGimbalJoystickAxis.html</Path>
+            
+        </Node>
+		<Node id="116" type="file" documentType="reference">
+            <Name>DJIGimbalRotateAngleMode</Name>
+            <Path>Constants/DJIGimbalRotateAngleMode.html</Path>
+            
+        </Node>
+		<Node id="117" type="file" documentType="reference">
+            <Name>DJIGimbalRotateDirection</Name>
+            <Path>Constants/DJIGimbalRotateDirection.html</Path>
+            
+        </Node>
+		<Node id="118" type="file" documentType="reference">
+            <Name>DJIGimbalSmoothTrackAxis</Name>
+            <Path>Constants/DJIGimbalSmoothTrackAxis.html</Path>
+            
+        </Node>
+		<Node id="119" type="file" documentType="reference">
+            <Name>DJIGimbalUserConfigType</Name>
+            <Path>Constants/DJIGimbalUserConfigType.html</Path>
+            
+        </Node>
+		<Node id="120" type="file" documentType="reference">
+            <Name>DJIGimbalWorkMode</Name>
+            <Path>Constants/DJIGimbalWorkMode.html</Path>
+            
+        </Node>
+		<Node id="121" type="file" documentType="reference">
+            <Name>DJIHandheldPowerMode</Name>
+            <Path>Constants/DJIHandheldPowerMode.html</Path>
+            
+        </Node>
+		<Node id="122" type="file" documentType="reference">
+            <Name>DJIHandheldWiFiFrequencyType</Name>
+            <Path>Constants/DJIHandheldWiFiFrequencyType.html</Path>
+            
+        </Node>
+		<Node id="123" type="file" documentType="reference">
+            <Name>DJIHotPointHeading</Name>
+            <Path>Constants/DJIHotPointHeading.html</Path>
+            
+        </Node>
+		<Node id="124" type="file" documentType="reference">
+            <Name>DJIHotPointStartPoint</Name>
+            <Path>Constants/DJIHotPointStartPoint.html</Path>
+            
+        </Node>
+		<Node id="125" type="file" documentType="reference">
+            <Name>DJIHotpointMissionExecutionState</Name>
+            <Path>Constants/DJIHotpointMissionExecutionState.html</Path>
+            
+        </Node>
+		<Node id="126" type="file" documentType="reference">
+            <Name>DJILBAirLinkChannelSelectionMode</Name>
+            <Path>Constants/DJILBAirLinkChannelSelectionMode.html</Path>
+            
+        </Node>
+		<Node id="127" type="file" documentType="reference">
+            <Name>DJILBAirLinkDataRate</Name>
+            <Path>Constants/DJILBAirLinkDataRate.html</Path>
+            
+        </Node>
+		<Node id="128" type="file" documentType="reference">
+            <Name>DJILBAirLinkFPVVideoQualityLatency</Name>
+            <Path>Constants/DJILBAirLinkFPVVideoQualityLatency.html</Path>
+            
+        </Node>
+		<Node id="129" type="file" documentType="reference">
+            <Name>DJILBAirLinkOSDUnits</Name>
+            <Path>Constants/DJILBAirLinkOSDUnits.html</Path>
+            
+        </Node>
+		<Node id="130" type="file" documentType="reference">
+            <Name>DJILBAirLinkPIPDisplayMode</Name>
+            <Path>Constants/DJILBAirLinkPIPDisplayMode.html</Path>
+            
+        </Node>
+		<Node id="131" type="file" documentType="reference">
+            <Name>DJILBAirLinkPIPPosition</Name>
+            <Path>Constants/DJILBAirLinkPIPPosition.html</Path>
+            
+        </Node>
+		<Node id="132" type="file" documentType="reference">
+            <Name>DJILBAirLinkSecondaryVideoFormat</Name>
+            <Path>Constants/DJILBAirLinkSecondaryVideoFormat.html</Path>
+            
+        </Node>
+		<Node id="133" type="file" documentType="reference">
+            <Name>DJILBAirLinkSecondaryVideoOutputPort</Name>
+            <Path>Constants/DJILBAirLinkSecondaryVideoOutputPort.html</Path>
+            
+        </Node>
+		<Node id="134" type="file" documentType="reference">
+            <Name>DJILandingGearMode</Name>
+            <Path>Constants/DJILandingGearMode.html</Path>
+            
+        </Node>
+		<Node id="135" type="file" documentType="reference">
+            <Name>DJILandingGearStatus</Name>
+            <Path>Constants/DJILandingGearStatus.html</Path>
+            
+        </Node>
+		<Node id="136" type="file" documentType="reference">
+            <Name>DJILensType</Name>
+            <Path>Constants/DJILensType.html</Path>
+            
+        </Node>
+		<Node id="137" type="file" documentType="reference">
+            <Name>DJILogLevel</Name>
+            <Path>Constants/DJILogLevel.html</Path>
+            
+        </Node>
+		<Node id="138" type="file" documentType="reference">
+            <Name>DJIMediaType</Name>
+            <Path>Constants/DJIMediaType.html</Path>
+            
+        </Node>
+		<Node id="139" type="file" documentType="reference">
+            <Name>DJIPanoramaMode</Name>
+            <Path>Constants/DJIPanoramaMode.html</Path>
+            
+        </Node>
+		<Node id="140" type="file" documentType="reference">
+            <Name>DJIRCControlChannelName</Name>
+            <Path>Constants/DJIRCControlChannelName.html</Path>
+            
+        </Node>
+		<Node id="141" type="file" documentType="reference">
+            <Name>DJIRCControlStyle</Name>
+            <Path>Constants/DJIRCControlStyle.html</Path>
+            
+        </Node>
+		<Node id="142" type="file" documentType="reference">
+            <Name>DJIRCGimbalControlDirection</Name>
+            <Path>Constants/DJIRCGimbalControlDirection.html</Path>
+            
+        </Node>
+		<Node id="143" type="file" documentType="reference">
+            <Name>DJIRCHardwareFlightModeSwitchState</Name>
+            <Path>Constants/DJIRCHardwareFlightModeSwitchState.html</Path>
+            
+        </Node>
+		<Node id="144" type="file" documentType="reference">
+            <Name>DJIRCHardwareTransformationSwitchState</Name>
+            <Path>Constants/DJIRCHardwareTransformationSwitchState.html</Path>
+            
+        </Node>
+		<Node id="145" type="file" documentType="reference">
+            <Name>DJIRCJoinMasterResult</Name>
+            <Path>Constants/DJIRCJoinMasterResult.html</Path>
+            
+        </Node>
+		<Node id="146" type="file" documentType="reference">
+            <Name>DJIRCRemoteFocusControlDirection</Name>
+            <Path>Constants/DJIRCRemoteFocusControlDirection.html</Path>
+            
+        </Node>
+		<Node id="147" type="file" documentType="reference">
+            <Name>DJIRCRemoteFocusControlType</Name>
+            <Path>Constants/DJIRCRemoteFocusControlType.html</Path>
+            
+        </Node>
+		<Node id="148" type="file" documentType="reference">
+            <Name>DJIRCRequestGimbalControlResult</Name>
+            <Path>Constants/DJIRCRequestGimbalControlResult.html</Path>
+            
+        </Node>
+		<Node id="149" type="file" documentType="reference">
+            <Name>DJIRCToAircraftPairingState</Name>
+            <Path>Constants/DJIRCToAircraftPairingState.html</Path>
+            
+        </Node>
+		<Node id="150" type="file" documentType="reference">
+            <Name>DJIRemoteControllerMode</Name>
+            <Path>Constants/DJIRemoteControllerMode.html</Path>
+            
+        </Node>
+		<Node id="151" type="file" documentType="reference">
+            <Name>DJISDKCameraError</Name>
+            <Path>Constants/DJISDKCameraError.html</Path>
+            
+        </Node>
+		<Node id="152" type="file" documentType="reference">
+            <Name>DJISDKError</Name>
+            <Path>Constants/DJISDKError.html</Path>
+            
+        </Node>
+		<Node id="153" type="file" documentType="reference">
+            <Name>DJISDKFlightControllerError</Name>
+            <Path>Constants/DJISDKFlightControllerError.html</Path>
+            
+        </Node>
+		<Node id="154" type="file" documentType="reference">
+            <Name>DJISDKMissionError</Name>
+            <Path>Constants/DJISDKMissionError.html</Path>
+            
+        </Node>
+		<Node id="155" type="file" documentType="reference">
+            <Name>DJISDKRegistrationError</Name>
+            <Path>Constants/DJISDKRegistrationError.html</Path>
+            
+        </Node>
+		<Node id="156" type="file" documentType="reference">
+            <Name>DJIVirtualStickFlightCoordinateSystem</Name>
+            <Path>Constants/DJIVirtualStickFlightCoordinateSystem.html</Path>
+            
+        </Node>
+		<Node id="157" type="file" documentType="reference">
+            <Name>DJIVirtualStickRollPitchControlMode</Name>
+            <Path>Constants/DJIVirtualStickRollPitchControlMode.html</Path>
+            
+        </Node>
+		<Node id="158" type="file" documentType="reference">
+            <Name>DJIVirtualStickVerticalControlMode</Name>
+            <Path>Constants/DJIVirtualStickVerticalControlMode.html</Path>
+            
+        </Node>
+		<Node id="159" type="file" documentType="reference">
+            <Name>DJIVirtualStickYawControlMode</Name>
+            <Path>Constants/DJIVirtualStickYawControlMode.html</Path>
+            
+        </Node>
+		<Node id="160" type="file" documentType="reference">
+            <Name>DJIWaypointActionType</Name>
+            <Path>Constants/DJIWaypointActionType.html</Path>
+            
+        </Node>
+		<Node id="161" type="file" documentType="reference">
+            <Name>DJIWaypointMissionExecuteState</Name>
+            <Path>Constants/DJIWaypointMissionExecuteState.html</Path>
+            
+        </Node>
+		<Node id="162" type="file" documentType="reference">
+            <Name>DJIWaypointMissionFinishedAction</Name>
+            <Path>Constants/DJIWaypointMissionFinishedAction.html</Path>
+            
+        </Node>
+		<Node id="163" type="file" documentType="reference">
+            <Name>DJIWaypointMissionFlightPathMode</Name>
+            <Path>Constants/DJIWaypointMissionFlightPathMode.html</Path>
+            
+        </Node>
+		<Node id="164" type="file" documentType="reference">
+            <Name>DJIWaypointMissionGotoWaypointMode</Name>
+            <Path>Constants/DJIWaypointMissionGotoWaypointMode.html</Path>
+            
+        </Node>
+		<Node id="165" type="file" documentType="reference">
+            <Name>DJIWaypointMissionHeadingMode</Name>
+            <Path>Constants/DJIWaypointMissionHeadingMode.html</Path>
+            
+        </Node>
+		<Node id="166" type="file" documentType="reference">
+            <Name>DJIWaypointTurnMode</Name>
+            <Path>Constants/DJIWaypointTurnMode.html</Path>
+            
+        </Node>
+		<Node id="167" type="file" documentType="reference">
+            <Name>DJIWiFiFrequencyBand</Name>
+            <Path>Constants/DJIWiFiFrequencyBand.html</Path>
+            
+        </Node>
+		<Node id="168" type="file" documentType="reference">
+            <Name>DJIWiFiSignalQuality</Name>
+            <Path>Constants/DJIWiFiSignalQuality.html</Path>
+            
+        </Node>
+		
+	</Library>
+</DocSetNodes>

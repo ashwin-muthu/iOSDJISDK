@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraPhotoQuality.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraPhotoQuality</TokenIdentifier>
+			<Abstract type="html">Photo quality of the JPEG image. Higher photo quality results in larger file size.
+The default value is CameraPhotoQualityExcellent.</Abstract>
+			<DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+			
+			<NodeRef refid="94"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPhotoQualityNormal</TokenIdentifier>
+            <Abstract type="html">The photo quality is normal.
+     </Abstract>
+            <Declaration>DJICameraPhotoQualityNormal</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="94"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPhotoQualityFine</TokenIdentifier>
+            <Abstract type="html">The photo quality is fine.
+     </Abstract>
+            <Declaration>DJICameraPhotoQualityFine</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="94"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPhotoQualityExcellent</TokenIdentifier>
+            <Abstract type="html">The photo quality is excellent.
+     </Abstract>
+            <Declaration>DJICameraPhotoQualityExcellent</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="94"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraPhotoQualityUnknown</TokenIdentifier>
+            <Abstract type="html">The photo quality is unknown.
+     </Abstract>
+            <Declaration>DJICameraPhotoQualityUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="94"/>
+        </Token>
+        
+	</File>
+</Tokens>

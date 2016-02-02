@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJILBAirLinkChannelSelectionMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJILBAirLinkChannelSelectionMode</TokenIdentifier>
+			<Abstract type="html">Downlink channel selection mode (manual or automatic) for wireless link.</Abstract>
+			<DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+			
+			<NodeRef refid="126"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkChannelSelectionModeAuto</TokenIdentifier>
+            <Abstract type="html">Air link will automatically select the best physical channel based on the signal environment.
+     </Abstract>
+            <Declaration>DJILBAirLinkChannelSelectionModeAuto</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="126"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkChannelSelectionModeManual</TokenIdentifier>
+            <Abstract type="html">Manually select the physical channel.
+     </Abstract>
+            <Declaration>DJILBAirLinkChannelSelectionModeManual</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="126"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkChannelSelectionModeUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown physical channel selection mode.
+     </Abstract>
+            <Declaration>DJILBAirLinkChannelSelectionModeUnknown</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="126"/>
+        </Token>
+        
+	</File>
+</Tokens>

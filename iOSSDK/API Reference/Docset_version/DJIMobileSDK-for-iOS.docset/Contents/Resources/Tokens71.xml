@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/DJIMissionManagerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/DJIMissionManagerDelegate</TokenIdentifier>
+			<Abstract type="html">This protocol provides methods to check mission execution status and result.</Abstract>
+			<DeclaredIn>DJIMissionManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="71"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJIMissionManagerDelegate/missionManager:didFinishMissionExecution:</TokenIdentifier>
+			<Abstract type="html">Mission execution finished callback.</Abstract>
+			<DeclaredIn>DJIMissionManager.h</DeclaredIn>
+			
+			<Declaration>- (void)missionManager:(DJIMissionManager *_Nonnull)manager didFinishMissionExecution:(NSError *_Nullable)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>manager</Name>
+					<Abstract type="html">Mission object</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Show whether the mission was finished with error.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/missionManager:didFinishMissionExecution:</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJIMissionManagerDelegate/missionManager:missionProgressStatus:</TokenIdentifier>
+			<Abstract type="html">Mission execution state update callback.
+Returns current mission and status.  For the waypoint mission, it will include mission state,
+target waypoint index, waypoint execution state, as well as error if have.</Abstract>
+			<DeclaredIn>DJIMissionManager.h</DeclaredIn>
+			
+			<Declaration>- (void)missionManager:(DJIMissionManager *_Nonnull)manager missionProgressStatus:(DJIMissionProgressStatus *_Nonnull)missionProgress</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>manager</Name>
+					<Abstract type="html">Mission object</Abstract>
+				</Parameter><Parameter>
+					<Name>missionProgress</Name>
+					<Abstract type="html">Mission progress object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/missionManager:missionProgressStatus:</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

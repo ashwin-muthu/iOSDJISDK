@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraLensFocusStatus.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraLensFocusStatus</TokenIdentifier>
+			<Abstract type="html">The focusing status of the camera&apos;s lens.</Abstract>
+			<DeclaredIn>DJICameraLensState.h</DeclaredIn>
+            
+			
+			<NodeRef refid="88"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraLensFocusStatusIdle</TokenIdentifier>
+            <Abstract type="html">The lens is idle. No focus target has been set.
+     </Abstract>
+            <Declaration>DJICameraLensFocusStatusIdle</Declaration>
+            
+            <DeclaredIn>DJICameraLensState.h</DeclaredIn>
+            
+            <NodeRef refid="88"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraLensFocusStatusFocusing</TokenIdentifier>
+            <Abstract type="html">The lens is focusing to the target.
+     </Abstract>
+            <Declaration>DJICameraLensFocusStatusFocusing</Declaration>
+            
+            <DeclaredIn>DJICameraLensState.h</DeclaredIn>
+            
+            <NodeRef refid="88"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraLensFocusStatusSuccess</TokenIdentifier>
+            <Abstract type="html">The lens succeeds to fucus on the target.
+     </Abstract>
+            <Declaration>DJICameraLensFocusStatusSuccess</Declaration>
+            
+            <DeclaredIn>DJICameraLensState.h</DeclaredIn>
+            
+            <NodeRef refid="88"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraLensFocusStatusFailure</TokenIdentifier>
+            <Abstract type="html">The lens fails to fucus on the target.
+It happens when the target is too near or the camera cannot distinguish the object to focus (e.g. a white w
+wall).
+     </Abstract>
+            <Declaration>DJICameraLensFocusStatusFailure</Declaration>
+            
+            <DeclaredIn>DJICameraLensState.h</DeclaredIn>
+            
+            <NodeRef refid="88"/>
+        </Token>
+        
+	</File>
+</Tokens>

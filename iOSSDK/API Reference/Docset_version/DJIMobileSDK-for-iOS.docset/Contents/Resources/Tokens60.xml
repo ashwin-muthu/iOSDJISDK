@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIWiFiLink.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIWiFiLink</TokenIdentifier>
+			<Abstract type="html">This class provides methods to change the setting of the product&apos;s WiFi. You can also reboot the WiFi adapter inside product in order to make the new setting take effect.</Abstract>
+			<DeclaredIn>DJIWiFiLink.h</DeclaredIn>
+            
+			
+			<NodeRef refid="60"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWiFiLink/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Returns the DJIWiFiLink delegate.</Abstract>
+			<DeclaredIn>DJIWiFiLink.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;DJIWiFiLinkDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWiFiLink/delegate</TokenIdentifier>
+			<Abstract type="html">Returns the DJIWiFiLink delegate.</Abstract>
+			<DeclaredIn>DJIWiFiLink.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;DJIWiFiLinkDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIWiFiLink/delegate</TokenIdentifier>
+			<Abstract type="html">Returns the DJIWiFiLink delegate.</Abstract>
+			<DeclaredIn>DJIWiFiLink.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;DJIWiFiLinkDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWiFiLink/rebootWiFiWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Reboot WiFi.</Abstract>
+			<DeclaredIn>DJIWiFiLink.h</DeclaredIn>
+			
+			<Declaration>- (void)rebootWiFiWithCompletion:(DJICompletionBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Remote execution result error block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/rebootWiFiWithCompletion:</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWiFiLink/getWiFiSSIDWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Gets WiFi SSID.</Abstract>
+			<DeclaredIn>DJIWiFiLink.h</DeclaredIn>
+			
+			<Declaration>- (void)getWiFiSSIDWithCompletion:(void ( ^ ) ( NSString *ssid , NSError *_Nullable error ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Remote execution result error block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getWiFiSSIDWithCompletion:</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWiFiLink/setWiFiSSID:withCompletion:</TokenIdentifier>
+			<Abstract type="html">Sets WiFi SSID.</Abstract>
+			<DeclaredIn>DJIWiFiLink.h</DeclaredIn>
+			
+			<Declaration>- (void)setWiFiSSID:(NSString *)ssid withCompletion:(DJICompletionBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>ssid</Name>
+					<Abstract type="html">the WiFi ssid want to change. It should just include alphabet, number, space, &apos;-&apos; and should not be more than 30 characters.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Remote execution result error block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setWiFiSSID:withCompletion:</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWiFiLink/getWiFiPasswordWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Gets WiFi Password.</Abstract>
+			<DeclaredIn>DJIWiFiLink.h</DeclaredIn>
+			
+			<Declaration>- (void)getWiFiPasswordWithCompletion:(void ( ^ ) ( NSString *password , NSError *_Nullable error ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Remote execution result error block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getWiFiPasswordWithCompletion:</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWiFiLink/setWiFiPassword:withCompletion:</TokenIdentifier>
+			<Abstract type="html">Sets WiFi Password.</Abstract>
+			<DeclaredIn>DJIWiFiLink.h</DeclaredIn>
+			
+			<Declaration>- (void)setWiFiPassword:(NSString *)password withCompletion:(DJICompletionBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>password</Name>
+					<Abstract type="html">The new WiFi password. It should be at least 8 characters and only includes alphabet characters and numbers.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Remote execution result error block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setWiFiPassword:withCompletion:</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWiFiLink/isWiFiFrequencyBandEditable</TokenIdentifier>
+			<Abstract type="html">YES if product allows user to change WiFi frequency bands.
+Currently, only OSMO supports this feature.</Abstract>
+			<DeclaredIn>DJIWiFiLink.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isWiFiFrequencyBandEditable</Declaration>
+			
+			
+			<Anchor>//api/name/isWiFiFrequencyBandEditable</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWiFiLink/setWiFiFrequencyBand:withCompletion:</TokenIdentifier>
+			<Abstract type="html">Sets WiFi frequency band.
+It can be called only if isWiFiFrequencyBandEditable returns YES.</Abstract>
+			<DeclaredIn>DJIWiFiLink.h</DeclaredIn>
+			
+			<Declaration>- (void)setWiFiFrequencyBand:(DJIWiFiFrequencyBand)frequencyBand withCompletion:(DJICompletionBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frequencyBand</Name>
+					<Abstract type="html">WiFi frequency band to change to.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Remote execution result error block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setWiFiFrequencyBand:withCompletion:</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIWiFiLink/getWiFiFrequencyBandWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Gets current WiFi frequency band.
+It can be called only if isWiFiFrequencyBandEditable returns YES.</Abstract>
+			<DeclaredIn>DJIWiFiLink.h</DeclaredIn>
+			
+			<Declaration>- (void)getWiFiFrequencyBandWithCompletion:(void ( ^ ) ( DJIWiFiFrequencyBand frequencyBand , NSError *_Nullable error ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Remote execution result error block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getWiFiFrequencyBandWithCompletion:</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

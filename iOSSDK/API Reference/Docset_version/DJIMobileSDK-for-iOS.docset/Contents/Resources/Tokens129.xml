@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJILBAirLinkOSDUnits.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJILBAirLinkOSDUnits</TokenIdentifier>
+			<Abstract type="html">OSD data units.</Abstract>
+			<DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+			
+			<NodeRef refid="129"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkOSDUnitsImperial</TokenIdentifier>
+            <Abstract type="html">Imperial
+     </Abstract>
+            <Declaration>DJILBAirLinkOSDUnitsImperial</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkOSDUnitsMetric</TokenIdentifier>
+            <Abstract type="html">Metric
+     </Abstract>
+            <Declaration>DJILBAirLinkOSDUnitsMetric</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJILBAirLinkOSDUnitsUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown
+     </Abstract>
+            <Declaration>DJILBAirLinkOSDUnitsUnknown</Declaration>
+            
+            <DeclaredIn>DJILBAirLink.h</DeclaredIn>
+            
+            <NodeRef refid="129"/>
+        </Token>
+        
+	</File>
+</Tokens>

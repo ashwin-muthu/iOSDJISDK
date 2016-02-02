@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJIGimbalRotateDirection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJIGimbalRotateDirection</TokenIdentifier>
+			<Abstract type="html">Gimbal rotate direction.</Abstract>
+			<DeclaredIn>DJIGimbal.h</DeclaredIn>
+            
+			
+			<NodeRef refid="117"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIGimbalRotateDirectionClockwise</TokenIdentifier>
+            <Abstract type="html">Sets the gimbal to rotate clockwise.
+     </Abstract>
+            <Declaration>DJIGimbalRotateDirectionClockwise</Declaration>
+            
+            <DeclaredIn>DJIGimbal.h</DeclaredIn>
+            
+            <NodeRef refid="117"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJIGimbalRotateDirectionCounterClockwise</TokenIdentifier>
+            <Abstract type="html">Sets the gimbal to rotate counter-clockwise.
+     </Abstract>
+            <Declaration>DJIGimbalRotateDirectionCounterClockwise</Declaration>
+            
+            <DeclaredIn>DJIGimbal.h</DeclaredIn>
+            
+            <NodeRef refid="117"/>
+        </Token>
+        
+	</File>
+</Tokens>

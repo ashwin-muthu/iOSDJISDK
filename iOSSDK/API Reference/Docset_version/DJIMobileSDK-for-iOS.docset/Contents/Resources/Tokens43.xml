@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIMissionStep.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIMissionStep</TokenIdentifier>
+			<Abstract type="html">Abstract class for all mission steps.</Abstract>
+			<DeclaredIn>DJIMissionStep.h</DeclaredIn>
+            
+			
+			<NodeRef refid="43"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

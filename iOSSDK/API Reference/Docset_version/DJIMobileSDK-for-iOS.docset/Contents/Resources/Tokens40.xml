@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIMission.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIMission</TokenIdentifier>
+			<Abstract type="html">The class is an abstract class representing a mission that can be executed by the mission manager.</Abstract>
+			<DeclaredIn>DJIMission.h</DeclaredIn>
+            
+			
+			<NodeRef refid="40"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIMission/isPausable</TokenIdentifier>
+			<Abstract type="html">Whether current mission can be paused.</Abstract>
+			<DeclaredIn>DJIMission.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isPausable</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if mission can be paused. No if mission can not be paused.</Abstract></ReturnValue>
+			<Anchor>//api/name/isPausable</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

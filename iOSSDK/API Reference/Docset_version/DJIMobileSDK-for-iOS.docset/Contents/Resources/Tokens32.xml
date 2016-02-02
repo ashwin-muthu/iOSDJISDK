@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIHandheldController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIHandheldController</TokenIdentifier>
+			<Abstract type="html">This class contains interfaces to control a handheld device. You can make the handheld device enter sleep mode, awake from sleep mode or shut it down.</Abstract>
+			<DeclaredIn>DJIHandheldController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHandheldController/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Returns the DJIHandheldController delegate</Abstract>
+			<DeclaredIn>DJIHandheldController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;DJIHandheldControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHandheldController/delegate</TokenIdentifier>
+			<Abstract type="html">Returns the DJIHandheldController delegate</Abstract>
+			<DeclaredIn>DJIHandheldController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;DJIHandheldControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIHandheldController/delegate</TokenIdentifier>
+			<Abstract type="html">Returns the DJIHandheldController delegate</Abstract>
+			<DeclaredIn>DJIHandheldController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;DJIHandheldControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIHandheldController/setHandheldPowerMode:withCompletion:</TokenIdentifier>
+			<Abstract type="html">Set the power mode for handheld.</Abstract>
+			<DeclaredIn>DJIHandheldController.h</DeclaredIn>
+			
+			<Declaration>- (void)setHandheldPowerMode:(DJIHandheldPowerMode)mode withCompletion:(DJICompletionBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">The power mode to set.
+CAUTION: when the mode is DJIHandheldPowerModePowerOff, the handheld device will be shut down and
+the connection will be broken. User then needs to power on the device manually.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Remote execution result callback block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setHandheldPowerMode:withCompletion:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraVideoStandard.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraVideoStandard</TokenIdentifier>
+			<Abstract type="html">Video standard values. The default value is NTSC.</Abstract>
+			<DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+			
+			<NodeRef refid="105"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraVideoStandardPAL</TokenIdentifier>
+            <Abstract type="html">The camera video standard value is set to PAL.
+     </Abstract>
+            <Declaration>DJICameraVideoStandardPAL</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="105"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraVideoStandardNTSC</TokenIdentifier>
+            <Abstract type="html">The camera video standard value is set to NTSC.
+     </Abstract>
+            <Declaration>DJICameraVideoStandardNTSC</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="105"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraVideoStandardUnknown</TokenIdentifier>
+            <Abstract type="html">The camera video standard value is unknown.
+     </Abstract>
+            <Declaration>DJICameraVideoStandardUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="105"/>
+        </Token>
+        
+	</File>
+</Tokens>

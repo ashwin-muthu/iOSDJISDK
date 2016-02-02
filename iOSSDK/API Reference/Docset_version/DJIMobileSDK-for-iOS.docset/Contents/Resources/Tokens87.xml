@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DJICameraLensFocusMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DJICameraLensFocusMode</TokenIdentifier>
+			<Abstract type="html">Camera focus mode.
+It is settable only when IsAdjustableFocalPointSupported returns YES and the physical AF switch on the camera is set to auto.</Abstract>
+			<DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+			
+			<NodeRef refid="87"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraLensFocusModeManual</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>DJICameraLensFocusModeManual</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="87"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraLensFocusModeAuto</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>DJICameraLensFocusModeAuto</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="87"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DJICameraLensFocusModeUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>DJICameraLensFocusModeUnknown</Declaration>
+            
+            <DeclaredIn>DJICameraSettingsDef.h</DeclaredIn>
+            
+            <NodeRef refid="87"/>
+        </Token>
+        
+	</File>
+</Tokens>

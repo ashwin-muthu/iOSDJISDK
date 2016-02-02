@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/DJICameraDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/DJICameraDelegate</TokenIdentifier>
+			<Abstract type="html">This protocol provides delegate methods to receive the updated video data, camera&apos;s current state and lens information.</Abstract>
+			<DeclaredIn>DJICamera.h</DeclaredIn>
+            
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJICameraDelegate/camera:didReceiveVideoData:length:</TokenIdentifier>
+			<Abstract type="html">Video data update callback. H.264 (also called MPEG-4 Part 10 Advanced Video Coding or MPEG-4 AVC)
+is a video coding format that is currently one of the most commonly used formats for the recording,
+compression, and distribution of video content.</Abstract>
+			<DeclaredIn>DJICamera.h</DeclaredIn>
+			
+			<Declaration>- (void)camera:(DJICamera *)camera didReceiveVideoData:(uint8_t *)videoBuffer length:(size_t)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>camera</Name>
+					<Abstract type="html">Camera that sends out the video data.</Abstract>
+				</Parameter><Parameter>
+					<Name>videoBuffer</Name>
+					<Abstract type="html">H.264 video data buffer. Don&apos;t free the buffer after it has been used. The
+units for the video buffer are bytes.</Abstract>
+				</Parameter><Parameter>
+					<Name>length</Name>
+					<Abstract type="html">Size of the address of the video data buffer in bytes.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/camera:didReceiveVideoData:length:</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJICameraDelegate/camera:didUpdateSystemState:</TokenIdentifier>
+			<Abstract type="html">Updates the camera&apos;s current state.</Abstract>
+			<DeclaredIn>DJICamera.h</DeclaredIn>
+			
+			<Declaration>- (void)camera:(DJICamera *)camera didUpdateSystemState:(DJICameraSystemState *)systemState</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>camera</Name>
+					<Abstract type="html">Camera that sends out the video data.</Abstract>
+				</Parameter><Parameter>
+					<Name>systemState</Name>
+					<Abstract type="html">The camera&apos;s system state.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/camera:didUpdateSystemState:</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJICameraDelegate/camera:didUpdateLensState:</TokenIdentifier>
+			<Abstract type="html">Tells the delegate that the lens information is updated.
+This protocol is available only when isChangeableLensSupported is YES.</Abstract>
+			<DeclaredIn>DJICamera.h</DeclaredIn>
+			
+			<Declaration>- (void)camera:(DJICamera *)camera didUpdateLensState:(DJICameraLensState *)lensState</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>camera</Name>
+					<Abstract type="html">Camera that sends out the updatd lens information.</Abstract>
+				</Parameter><Parameter>
+					<Name>lensState</Name>
+					<Abstract type="html">The camera&apos;s lens state.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/camera:didUpdateLensState:</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

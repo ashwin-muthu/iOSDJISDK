@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJICompass.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJICompass</TokenIdentifier>
+			<Abstract type="html">This class contains important status of the compass of the product. Also it provides methods to calibrate the compass.</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICompass/setHeading:</TokenIdentifier>
+			<Abstract type="html">Represents the heading in degrees. True North is 0 degrees heading, positive heading is East of North, negative heading is West of North and heading bounds are [-180, 180].</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double heading</Declaration>
+			
+			
+			<Anchor>//api/name/heading</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICompass/heading</TokenIdentifier>
+			<Abstract type="html">Represents the heading in degrees. True North is 0 degrees heading, positive heading is East of North, negative heading is West of North and heading bounds are [-180, 180].</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double heading</Declaration>
+			
+			
+			<Anchor>//api/name/heading</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICompass/heading</TokenIdentifier>
+			<Abstract type="html">Represents the heading in degrees. True North is 0 degrees heading, positive heading is East of North, negative heading is West of North and heading bounds are [-180, 180].</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double heading</Declaration>
+			
+			
+			<Anchor>//api/name/heading</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICompass/setHasError:</TokenIdentifier>
+			<Abstract type="html">YES if the compass has error. If YES, the compass needs calibration.</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasError</Declaration>
+			
+			
+			<Anchor>//api/name/hasError</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICompass/hasError</TokenIdentifier>
+			<Abstract type="html">YES if the compass has error. If YES, the compass needs calibration.</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasError</Declaration>
+			
+			
+			<Anchor>//api/name/hasError</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICompass/hasError</TokenIdentifier>
+			<Abstract type="html">YES if the compass has error. If YES, the compass needs calibration.</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasError</Declaration>
+			
+			
+			<Anchor>//api/name/hasError</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICompass/setIsCalibrating:</TokenIdentifier>
+			<Abstract type="html">YES if the compass is currently calibrating.</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isCalibrating</Declaration>
+			
+			
+			<Anchor>//api/name/isCalibrating</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICompass/isCalibrating</TokenIdentifier>
+			<Abstract type="html">YES if the compass is currently calibrating.</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isCalibrating</Declaration>
+			
+			
+			<Anchor>//api/name/isCalibrating</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICompass/isCalibrating</TokenIdentifier>
+			<Abstract type="html">YES if the compass is currently calibrating.</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isCalibrating</Declaration>
+			
+			
+			<Anchor>//api/name/isCalibrating</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICompass/setCalibrationStatus:</TokenIdentifier>
+			<Abstract type="html">Shows the calibration status.</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJICompassCalibrationStatus calibrationStatus</Declaration>
+			
+			
+			<Anchor>//api/name/calibrationStatus</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICompass/calibrationStatus</TokenIdentifier>
+			<Abstract type="html">Shows the calibration status.</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJICompassCalibrationStatus calibrationStatus</Declaration>
+			
+			
+			<Anchor>//api/name/calibrationStatus</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJICompass/calibrationStatus</TokenIdentifier>
+			<Abstract type="html">Shows the calibration status.</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) DJICompassCalibrationStatus calibrationStatus</Declaration>
+			
+			
+			<Anchor>//api/name/calibrationStatus</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICompass/startCalibrationWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Starts compass calibration. Make sure there are no magnets or metal objects near the compass.</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>- (void)startCalibrationWithCompletion:(DJICompletionBlock)completion</Declaration>
+			
+			
+			<Anchor>//api/name/startCalibrationWithCompletion:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICompass/stopCalibrationWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Stops compass calibration.</Abstract>
+			<DeclaredIn>DJICompass.h</DeclaredIn>
+			
+			<Declaration>- (void)stopCalibrationWithCompletion:(DJICompletionBlock)completion</Declaration>
+			
+			
+			<Anchor>//api/name/stopCalibrationWithCompletion:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

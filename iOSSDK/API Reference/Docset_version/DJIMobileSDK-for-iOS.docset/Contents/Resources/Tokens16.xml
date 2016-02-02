@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJICustomMission.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJICustomMission</TokenIdentifier>
+			<Abstract type="html">The DJICustomMission class is a subclass of DJIMission. You can use it to create a custom mission that
+is made up of a sequence of mission steps.
+After the custom mission is uploaded and started, the sequence of mission steps will be executed.</Abstract>
+			<DeclaredIn>DJICustomMission.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJICustomMission/initWithSteps:</TokenIdentifier>
+			<Abstract type="html">Create a custom mission with an array of DJIMissionStep objects.</Abstract>
+			<DeclaredIn>DJICustomMission.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIMissionStep</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (instancetype _Nullable)initWithSteps:(NSArray&lt;DJIMissionStep*&gt; *_Nonnull)steps</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSteps:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

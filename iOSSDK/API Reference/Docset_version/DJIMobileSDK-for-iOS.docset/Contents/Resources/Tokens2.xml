@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIAircraft.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIAircraft</TokenIdentifier>
+			<Abstract type="html">This class contains the components of an aircraft.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/setCamera:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s camera.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJICamera</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJICamera *camera</Declaration>
+			
+			
+			<Anchor>//api/name/camera</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/camera</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s camera.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJICamera</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJICamera *camera</Declaration>
+			
+			
+			<Anchor>//api/name/camera</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIAircraft/camera</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s camera.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJICamera</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJICamera *camera</Declaration>
+			
+			
+			<Anchor>//api/name/camera</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/setFlightController:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s flight controller.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIFlightController</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIFlightController *flightController</Declaration>
+			
+			
+			<Anchor>//api/name/flightController</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/flightController</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s flight controller.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIFlightController</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIFlightController *flightController</Declaration>
+			
+			
+			<Anchor>//api/name/flightController</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIAircraft/flightController</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s flight controller.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIFlightController</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIFlightController *flightController</Declaration>
+			
+			
+			<Anchor>//api/name/flightController</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/setGimbal:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s gimbal.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIGimbal</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIGimbal *gimbal</Declaration>
+			
+			
+			<Anchor>//api/name/gimbal</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/gimbal</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s gimbal.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIGimbal</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIGimbal *gimbal</Declaration>
+			
+			
+			<Anchor>//api/name/gimbal</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIAircraft/gimbal</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s gimbal.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIGimbal</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIGimbal *gimbal</Declaration>
+			
+			
+			<Anchor>//api/name/gimbal</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/setBattery:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s smart battery.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIBattery</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIBattery *battery</Declaration>
+			
+			
+			<Anchor>//api/name/battery</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/battery</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s smart battery.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIBattery</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIBattery *battery</Declaration>
+			
+			
+			<Anchor>//api/name/battery</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIAircraft/battery</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s smart battery.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIBattery</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIBattery *battery</Declaration>
+			
+			
+			<Anchor>//api/name/battery</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/setRemoteController:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s remote controller.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIRemoteController</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIRemoteController *remoteController</Declaration>
+			
+			
+			<Anchor>//api/name/remoteController</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/remoteController</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s remote controller.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIRemoteController</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIRemoteController *remoteController</Declaration>
+			
+			
+			<Anchor>//api/name/remoteController</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIAircraft/remoteController</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s remote controller.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIRemoteController</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIRemoteController *remoteController</Declaration>
+			
+			
+			<Anchor>//api/name/remoteController</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/setAirLink:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s airLink.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIAirLink</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIAirLink *airLink</Declaration>
+			
+			
+			<Anchor>//api/name/airLink</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/airLink</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s airLink.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIAirLink</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIAirLink *airLink</Declaration>
+			
+			
+			<Anchor>//api/name/airLink</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DJIAircraft/airLink</TokenIdentifier>
+			<Abstract type="html">Returns an instance of the aircraft&apos;s airLink.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIAirLink</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) DJIAirLink *airLink</Declaration>
+			
+			
+			<Anchor>//api/name/airLink</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/setAircraftName:withCompletion:</TokenIdentifier>
+			<Abstract type="html">Sets the aircraft&apos;s name. The aircraft&apos;s name should be less than 32 characters.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+			<Declaration>- (void)setAircraftName:(NSString *)name withCompletion:(DJICompletionBlock)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">Name to be set to the aircraft.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">Completion block</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAircraftName:withCompletion:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIAircraft/getAircraftNameWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Returns the aircraft&apos;s name.</Abstract>
+			<DeclaredIn>DJIAircraft.h</DeclaredIn>
+			
+			<Declaration>- (void)getAircraftNameWithCompletion:(void ( ^ ) ( NSString *name , NSError *_Nullable error ))completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">Remote execution result callback block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getAircraftNameWithCompletion:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

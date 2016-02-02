@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DJIFollowMeStep.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DJIFollowMeStep</TokenIdentifier>
+			<Abstract type="html">This class represents a follow-me step for a custom mission. By creating an object of this class and adding it into
+a custom mission, a follow-me action will be performed during the custom mission.</Abstract>
+			<DeclaredIn>DJIFollowMeStep.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DJIFollowMeMission</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DJIFollowMeStep/initWithFollowMeMission:duration:</TokenIdentifier>
+			<Abstract type="html">Inialized instance with a follow me mission and duration.</Abstract>
+			<DeclaredIn>DJIFollowMeStep.h</DeclaredIn>
+			
+			<Declaration>- (instancetype _Nullable)initWithFollowMeMission:(DJIFollowMeMission *_Nonnull)mission duration:(float)seconds</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mission</Name>
+					<Abstract type="html">Mission for follow me step.</Abstract>
+				</Parameter><Parameter>
+					<Name>seconds</Name>
+					<Abstract type="html">Duration in seconds to this step.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Return instance of DJIFollowMeStep.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithFollowMeMission:duration:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/DJIPlaybackDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/DJIPlaybackDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol provides delegate method to receive the updated state of the playback manager.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="72"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DJIPlaybackDelegate/playbackManager:didUpdatePlaybackState:</TokenIdentifier>
+			<Abstract type="html">Updates playback state of the camera. This update method will only be called when the camera&apos;s work
+mode is set to DJICameraModePlayback.</Abstract>
+			<DeclaredIn>DJIPlaybackManager.h</DeclaredIn>
+			
+			<Declaration>- (void)playbackManager:(DJIPlaybackManager *)playbackManager didUpdatePlaybackState:(DJICameraPlaybackState *)playbackState</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>playbackState</Name>
+					<Abstract type="html">Camera&apos;s playback state.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/playbackManager:didUpdatePlaybackState:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
